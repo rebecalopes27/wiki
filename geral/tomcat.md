@@ -2,7 +2,7 @@
 title: Configuração Sistemas Web com Tomcat
 description: Configuração geral para subir aplicações TomCat
 published: true
-date: 2020-05-04T03:20:51.823Z
+date: 2020-05-04T03:49:21.961Z
 tags: web, tomcat
 ---
 
@@ -32,8 +32,8 @@ Verificar se dentro da pasta tomcat8.5.8080 > conf > Catalina > localhost será 
 	type="javax.sql.DataSource"
 	driverClassName="org.firebirdsql.jdbc.FBDriver"
 	url="jdbc:firebirdsql:192.168.1.10/3050:DBTRIBUTACAO?autoReconnect=true"
-	username="SYSDBA"
-	password="nakey"
+	username="*****"
+	password="*****"
 	maxActive="250"
 	maxIdle="2"
 	maxWait="60000"
@@ -43,3 +43,5 @@ Verificar se dentro da pasta tomcat8.5.8080 > conf > Catalina > localhost será 
 </Context>
 ```
 * Observar a url, ela determina em qual banco será feita a conexão.
+
+* Username e password de acordo com o banco.
