@@ -2,7 +2,7 @@
 title: Teste Upload de Imagens
 description: 
 published: true
-date: 2020-05-05T23:56:54.928Z
+date: 2020-05-06T00:02:27.772Z
 tags: 
 ---
 
@@ -10,3 +10,10 @@ tags:
 
 * Imagem:
 
+
+
+<img src="/imagens/bat.png" width="90%" height="90%">
+
+
+* imagem 2
+<img src="/imagens/bat.png" width="50%" height="90%">
