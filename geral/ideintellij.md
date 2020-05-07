@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T13:30:24.283Z
+date: 2020-05-07T13:35:55.274Z
 tags: ide, intellij
 ---
 
@@ -15,7 +15,7 @@ tags: ide, intellij
 * Acessar o site da JetBrains https://www.jetbrains.com/. Procurar pela IDE Intellij, e clicar em Download. Será apresentado duas opções:
 
 
-![instalacao.png](/imagens/instalacao.png)
+![instalacao.png](/imagens/instalacao.png){.align-center}
 
 > instalar a versão **Ultimate**.
 
@@ -33,8 +33,16 @@ tags: ide, intellij
 
 * Ao abrir o projeto, localizar no canto superior o botão de "Add Configuration".
 
-![add.png](/imagens/add.png)
+![add.png](/imagens/add.png){.align-center}
 
 > Certificar de ter instalado o TomCat8.0 em sua máquina, para isso verificar em C:\Program Files\Apache Software Foundation
 
-* Após clicar nesse botão, será aberta a tela para configurarmos o servidor
+* Após clicar nesse botão, será aberta a tela para configurarmos o servidor. Clicar no sinal de "+" que aparecerá no canto superior esquerdo.
+
+![add2.png](/imagens/add2.png){.align-center}
+
+* Será aberta uma lista com com vários tipos de configurações de servidores. Procurar a "Tomcat Server", após clicar em "Local".
+
+![tomcat.png](/imagens/tomcat.png){.align-center}
+
+
