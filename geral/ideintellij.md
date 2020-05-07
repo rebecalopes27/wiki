@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T14:35:34.958Z
+date: 2020-05-07T14:36:59.065Z
 tags: ide, intellij
 ---
 
@@ -61,5 +61,5 @@ tags: ide, intellij
 
 ![artefato.png](/imagens/artefato.png){.align-center}
 
-
+> Observar o contexto da aplicação logo abaixo
 
