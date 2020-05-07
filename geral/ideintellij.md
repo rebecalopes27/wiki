@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T14:33:07.452Z
+date: 2020-05-07T14:35:34.958Z
 tags: ide, intellij
 ---
 
@@ -56,6 +56,10 @@ tags: ide, intellij
 * Depois, clicar em OK. Será retornado para a tela de configuração do servidor. Observar no canto inferior direito que aparecerá uma lâmpada vermelha escrito "Fix". Isso ocorre porque é necessário fixar dentro do servidor o artefato que será feito o deploy. Clicar nessa lâmpada para fixar o artefato
 
 ![fix.png](/imagens/fix.png){.align-center}
+
+* Escolher o artefafo que será feito o deploy. Geralmente será o com extensão "exploded"
+
+![artefato.png](/imagens/artefato.png){.align-center}
 
 
 
