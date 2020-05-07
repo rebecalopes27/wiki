@@ -2,11 +2,11 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T15:27:18.633Z
+date: 2020-05-07T15:28:33.140Z
 tags: ide, intellij
 ---
 
-# Configurações IDE Intellij
+# IDE Intellij com TomCat8.0
 
 * Para utilizar a IDE Intellij nos projetos Java será necessário configurar de acordo com o servidor que será utilizado, Wildfly13.0/15.0 ou Tomcat8.0.
 
@@ -73,3 +73,4 @@ tags: ide, intellij
  
 ![porta.png](/imagens/porta.png){.align-center}
 
+# IDE Intellij com WildFly13/15
