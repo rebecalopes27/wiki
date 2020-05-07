@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T14:36:59.065Z
+date: 2020-05-07T14:55:25.497Z
 tags: ide, intellij
 ---
 
@@ -61,5 +61,5 @@ tags: ide, intellij
 
 ![artefato.png](/imagens/artefato.png){.align-center}
 
-> Observar o contexto da aplicação logo abaixo
+> Após escolher o artefato observar o contexto da aplicação logo abaixo, pois será necessário mapear a URL correta do projeto. 
 
