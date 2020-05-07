@@ -2,7 +2,7 @@
 title: Webservice
 description: Como funciona o webservice e como testar na máquina local
 published: true
-date: 2020-05-07T02:33:49.104Z
+date: 2020-05-07T02:37:12.415Z
 tags: webservice, xml, rps
 ---
 
@@ -23,6 +23,20 @@ Os clientes que decidem utilizar o webservice como meio de comunicação entre o
 # Classes e Métodos
 
 * Classes são responsáveis pelo Webservice
+
+* Métodos são responsáveis pelo Webservice
+
+# Como Testar o Webservice Localmente
+
+* Passos para o teste local no código
+
+* Passos para o teste local com Software SoapUI (Muito usado pelos clientes)
+
+* Tag CDATA para teste com SoapUI
+
+# Identificar XML mal formatado
+
+
 
 
 
