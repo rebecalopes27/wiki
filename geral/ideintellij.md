@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T13:35:55.274Z
+date: 2020-05-07T13:43:13.599Z
 tags: ide, intellij
 ---
 
@@ -25,7 +25,7 @@ tags: ide, intellij
 
 ![open.png](/imagens/open.png){.align-center}
 
-> Procurar o caminho onde está o projeto e abrir. Após abrir a IDE apresentará mensagens no canto inferior direito, sobre configurações e depências (Maven) que deverão ser importadas no projeto.
+> Procurar o caminho onde está o projeto e abrir. Após abrir a IDE apresentará mensagens no canto inferior direito, sobre configurações e dependências (Maven) que deverão ser importadas no projeto.
 
 
 
@@ -43,6 +43,7 @@ tags: ide, intellij
 
 * Será aberta uma lista com com vários tipos de configurações de servidores. Procurar a "Tomcat Server", após clicar em "Local".
 
-![tomcat.png](/imagens/tomcat.png){.align-center}
+![tomcat2.png](/imagens/tomcat2.png){.align-center}
+
 
 
