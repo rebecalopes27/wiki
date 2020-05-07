@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T13:28:31.392Z
+date: 2020-05-07T13:30:24.283Z
 tags: ide, intellij
 ---
 
@@ -34,3 +34,7 @@ tags: ide, intellij
 * Ao abrir o projeto, localizar no canto superior o botão de "Add Configuration".
 
 ![add.png](/imagens/add.png)
+
+> Certificar de ter instalado o TomCat8.0 em sua máquina, para isso verificar em C:\Program Files\Apache Software Foundation
+
+* Após clicar nesse botão, será aberta a tela para configurarmos o servidor
