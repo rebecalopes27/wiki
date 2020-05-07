@@ -2,13 +2,15 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-07T14:15:22.452Z
+date: 2020-05-07T15:14:15.802Z
 tags: encerramento, alterações, histórico
 ---
 
 # Encerramento Compulsório
 
-* Problema referente a duplicação de Notas no ISS que ocasionava a duplicação também no SAT
+* Problema referente a duplicação de Notas no ISS que ocasionava a duplicação também no SAT. (Meses 12/01/02/03 e 04)
+
+> O que acasionou tal problema foi na Classe MesAno, o equals e hash foram apagados e na Amazon a instância de homologação apontava a job de encerramento para o banco de produção do ISS.
 
 * Para realizar o cancelamentos dos débitos indevidos no SAT foram feitos os procedimentos descritos nos passos abaixo:
 
