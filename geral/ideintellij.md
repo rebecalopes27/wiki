@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T14:55:25.497Z
+date: 2020-05-07T15:27:18.633Z
 tags: ide, intellij
 ---
 
@@ -61,5 +61,15 @@ tags: ide, intellij
 
 ![artefato.png](/imagens/artefato.png){.align-center}
 
-> Após escolher o artefato observar o contexto da aplicação logo abaixo, pois será necessário mapear a URL correta do projeto. 
+> Após escolher o artefato observar o contexto da aplicação logo abaixo, pois será necessário mapear a URL correta do projeto.
+
+* Deopis de verificar se todas as configurações estçao corretas clicar em OK.A IDE estará pronta para ser utilizada com o Tomcat8.0
+
+* Confira as configurações:
+
+![url.png](/imagens/url.png){.align-center}
+
+![java2.png](/imagens/java2.png){.align-center}
+ 
+![porta.png](/imagens/porta.png){.align-center}
 
