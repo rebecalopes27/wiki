@@ -2,15 +2,11 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T15:28:33.140Z
+date: 2020-05-07T15:30:21.982Z
 tags: ide, intellij
 ---
 
-# IDE Intellij com TomCat8.0
-
-* Para utilizar a IDE Intellij nos projetos Java será necessário configurar de acordo com o servidor que será utilizado, Wildfly13.0/15.0 ou Tomcat8.0.
-
-## Download da IDE
+# Download da IDE
 
 * Acessar o site da JetBrains https://www.jetbrains.com/. Procurar pela IDE Intellij, e clicar em Download. Será apresentado duas opções:
 
@@ -29,7 +25,9 @@ tags: ide, intellij
 
 
 
-## Configurando TomCat 8.0 no projeto
+# IDE Intellij com TomCat8.0
+
+* Para utilizar a IDE Intellij nos projetos Java será necessário configurar de acordo com o servidor que será utilizado, Wildfly13.0/15.0 ou Tomcat8.0.
 
 * Ao abrir o projeto, localizar no canto superior o botão de "Add Configuration".
 
