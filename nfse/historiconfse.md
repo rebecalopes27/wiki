@@ -2,7 +2,7 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-07T14:01:28.429Z
+date: 2020-05-07T14:03:03.213Z
 tags: encerramento, alterações, histórico
 ---
 
@@ -10,7 +10,7 @@ tags: encerramento, alterações, histórico
 
 * Problema referente a duplicação de Notas no ISS que ocasionava a duplicação também no SAT
 
-* Para fazer o cancelamentos dos débitos indevidos no SAT foram feitos os procedimentos desxcritos nos passos abaixo:
+* Para realizar o cancelamentos dos débitos indevidos no SAT foram feitos os procedimentos descritos nos passos abaixo:
 
 # Passo 1
 
