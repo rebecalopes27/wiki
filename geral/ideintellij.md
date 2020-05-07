@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T13:17:08.213Z
+date: 2020-05-07T13:18:37.696Z
 tags: ide, intellij
 ---
 
@@ -14,8 +14,9 @@ tags: ide, intellij
 
 * Acessar o site da JetBrains https://www.jetbrains.com/. Procurar pela IDE Intellij, e clicar em Download. Será apresentado duas opções:
 
-> instalar a versão **Ultimate**.
 
 ![instalacao.png](/imagens/instalacao.png)
 
+> instalar a versão **Ultimate**.
 
+## Abrindo o projeto na IDE
