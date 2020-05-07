@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T13:43:13.599Z
+date: 2020-05-07T13:45:02.776Z
 tags: ide, intellij
 ---
 
@@ -39,7 +39,7 @@ tags: ide, intellij
 
 * Após clicar nesse botão, será aberta a tela para configurarmos o servidor. Clicar no sinal de "+" que aparecerá no canto superior esquerdo.
 
-![add2.png](/imagens/add2.png){.align-center}
+![add3.png](/imagens/add3.png){.align-center}
 
 * Será aberta uma lista com com vários tipos de configurações de servidores. Procurar a "Tomcat Server", após clicar em "Local".
 
