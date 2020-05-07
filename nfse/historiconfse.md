@@ -2,7 +2,7 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-07T14:03:03.213Z
+date: 2020-05-07T14:04:24.994Z
 tags: encerramento, alterações, histórico
 ---
 
@@ -82,7 +82,7 @@ where m.cod_lancamento_iss_proprio in (LISTA DE LANÇAMENTOS)
 ````
 
 # Passo 5 
-* No Banco do SAT e feito o update de cancelando em todos esses lançamentos
+* No Banco do SAT foi feito update de cancelando em todos esses lançamentos
 
 ```SQL
 UPDATE LANCTO_DEBITO_PARCELA
