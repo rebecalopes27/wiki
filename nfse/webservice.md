@@ -1,8 +1,8 @@
 ---
 title: Webservice
-description: Como funciona o webservice e como testar na máquina local
+description: Webservice para comunicação entre sistemas
 published: true
-date: 2020-05-07T02:37:12.415Z
+date: 2020-05-07T12:22:58.739Z
 tags: webservice, xml, rps
 ---
 
