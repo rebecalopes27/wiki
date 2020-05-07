@@ -2,7 +2,7 @@
 title: Configuração da IDE Intellij
 description: Configurações para utilizar a IDE Intellij 
 published: true
-date: 2020-05-07T13:45:02.776Z
+date: 2020-05-07T14:33:07.452Z
 tags: ide, intellij
 ---
 
@@ -44,6 +44,18 @@ tags: ide, intellij
 * Será aberta uma lista com com vários tipos de configurações de servidores. Procurar a "Tomcat Server", após clicar em "Local".
 
 ![tomcat2.png](/imagens/tomcat2.png){.align-center}
+
+* Na tela que será aberta localizar "Application Server" e clicar em "Configure"
+
+![configure.png](/imagens/configure.png){.align-center}
+
+* Inserir no campo "Tomcat Home" e "Tomcat base directory" o caminho onde esta o Tomcar8.0
+
+![apache.png](/imagens/apache.png){.align-center}
+
+* Depois, clicar em OK. Será retornado para a tela de configuração do servidor. Observar no canto inferior direito que aparecerá uma lâmpada vermelha escrito "Fix". Isso ocorre porque é necessário fixar dentro do servidor o artefato que será feito o deploy. Clicar nessa lâmpada para fixar o artefato
+
+![fix.png](/imagens/fix.png){.align-center}
 
 
 
