@@ -2,7 +2,7 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-07T14:04:24.994Z
+date: 2020-05-07T14:14:03.020Z
 tags: encerramento, alterações, histórico
 ---
 
@@ -38,7 +38,7 @@ ORDER BY 1, 2, 3, 4
 
 # Passo 2
 
-* Localizado no banco do nota todos os lançamentos proprios e retidos do mesmo periodo**
+* Localizado no banco do nota todos os lançamentos proprios e retidos do mesmo periodo
 
 ```SQL
 select m.cod_lancamento_iss_proprio AS LANCAMENTO_NOTA
@@ -71,7 +71,7 @@ coluna3-> formula usada =SEERRO(PROCV(linhaColuna2;todoIntervaloDaColuna1;1;0);"
 
 # Passo 4 
 
-### Verificado todos esses lançamentos encontrados no SAT, para certificar de não estarem presentes em nenhum movimento
+* Verificado todos esses lançamentos encontrados no SAT, para certificar de não estarem presentes em nenhum movimento
 
 ```SQL
 select * from nfse.movimentomensal m
