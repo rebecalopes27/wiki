@@ -2,7 +2,7 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-08T18:33:00.333Z
+date: 2020-05-08T19:00:45.397Z
 tags: encerramento, alterações, histórico
 ---
 
@@ -148,4 +148,9 @@ where DECLARACAO_ID in (LISTA DE DECLARAÇÕES)
 ```SQL
 delete from tabela5
 where DECLARACAO_ID in (LISTA DE DECLARAÇÕES)
+```
+->TABELA 6 declaracoes
+```SQL
+delete from tabela6
+where campo1  in
 ```
