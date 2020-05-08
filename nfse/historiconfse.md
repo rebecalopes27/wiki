@@ -2,7 +2,7 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-07T15:14:15.802Z
+date: 2020-05-08T18:05:02.095Z
 tags: encerramento, alterações, histórico
 ---
 
@@ -34,6 +34,7 @@ WHERE COALESCE(LD.COD_LANCAMENTO, '') <> ''
   AND LD.EXERCICIO >= 2020
   AND LD.COD_IMPOSTO IN ('201','203')
   AND COALESCE(LDP.PARCELA_CANCELADA, 0) = 0
+  AND COALESCE(LDP.COD_TIPO_BAIXA, 0) = 0
   AND LD.COD_LANCAMENTO STARTING '1' /*SERIA INTERESSANTE CRIAR UM CAMPO NA LANCTO_DEBITO PARA IDENTIFICAR SE O LANCAMENTO VEIO DO NOTA OU NAO*/
 ORDER BY 1, 2, 3, 4
 ````
