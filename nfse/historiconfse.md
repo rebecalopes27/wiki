@@ -2,7 +2,7 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-08T18:05:02.095Z
+date: 2020-05-08T18:05:56.954Z
 tags: encerramento, alterações, histórico
 ---
 
