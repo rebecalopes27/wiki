@@ -2,7 +2,7 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-08T18:05:56.954Z
+date: 2020-05-08T18:22:51.172Z
 tags: encerramento, alterações, histórico
 ---
 
@@ -102,10 +102,10 @@ WHERE COD_LANCAMENTO IN ('LISTA DE LANÇAMENTOS')
 * Localizado as declarações através dos lançamentos indevidos
 
 ```SQL
-select t10.campo5 || ','
-from tabela10 t10
-left join tabela12 t12 on t12.campo2 = t10.campo1
-where t12.campo19 in('LISTA DE LANÇAMENTOS')'
+UPDATE LANCTO_DEBITO_PARCELA LDP
+SET LDP.PARCELA_CANCELADA = 1
+WHERE COALESCE(LDP.COD_TIPO_BAIXA, 0) = 0
+AND LDP.COD_LANCAMENTO IN ('LISTA DE LANÇAMENTOS')
 ```
 
 # Passo 8
