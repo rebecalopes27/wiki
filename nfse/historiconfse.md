@@ -2,7 +2,7 @@
 title: Histórico Alteração
 description: Histórico de Alterações Importantes no código do NFSe - Encerramento Compulsório
 published: true
-date: 2020-05-08T18:25:46.535Z
+date: 2020-05-08T18:33:00.333Z
 tags: encerramento, alterações, histórico
 ---
 
@@ -120,7 +120,7 @@ where m.numerodeclaracao in (LISTA DE DECLARAÇÕES)
 
 # Passo 9
 
-* Se não foi localizado nenhuma declaração, foi deletado no banco do ISS as declarações indevidas:
+* Se não foi localizado nenhuma declaração, deletar no banco do ISS as declarações indevidas:
 
 > Começando pela tabela 10
 
