@@ -2,7 +2,7 @@
 title: GIT
 description: Comandos básicos GIT
 published: true
-date: 2020-05-13T00:55:23.193Z
+date: 2020-05-13T00:56:41.444Z
 tags: git, versionamento
 ---
 
