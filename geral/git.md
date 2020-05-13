@@ -1,14 +1,10 @@
 ---
-title: GIT
+title: GIT - Sistema de controle de versões distribuído Comandos básicos para utilizar o GIT
 description: Comandos básicos GIT
 published: true
-date: 2020-05-13T00:56:41.444Z
+date: 2020-05-13T00:57:25.482Z
 tags: git, versionamento
 ---
-
-# GIT - Sistema de controle de versões distribuído
-Comandos básicos para utilizar o GIT
-
 
 # Git init
 
