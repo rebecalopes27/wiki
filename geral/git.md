@@ -2,7 +2,7 @@
 title: GIT - Sistema de controle de versões distribuído
 description: Comandos básicos GIT
 published: true
-date: 2020-05-13T00:57:47.469Z
+date: 2020-05-18T01:44:57.992Z
 tags: git, versionamento
 ---
 
@@ -112,9 +112,31 @@ git checkout nome_da_nova_branch
 ```git
 git branch -d nome_da_nova_branch
 ```
-# Git merge master
-
-# Git hist --all
 
 # Git push
+
+* Para enviar uma branch para o servidor, executar
+
+```git
+git push origin nome_da_branch
+```
+
+# Git merge master
+
+* Para fazermos o merge das branchs será necessário primeiro, entrar na branch master
+```git
+git checkout master
+```
+* E depois executar
+```git
+git merge nome_branch
+```
+# Git hist
+
+* Para visualizar o histórico de mudanças, executar
+```git
+git hist --all
+```
+
+
 
