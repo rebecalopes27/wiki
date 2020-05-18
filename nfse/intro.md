@@ -2,8 +2,8 @@
 title: NFSE
 description: 
 published: true
-date: 2020-05-18T01:52:40.619Z
-tags: 
+date: 2020-05-18T01:53:11.431Z
+tags: nfse, introdução
 ---
 
 # Introdução NFSe
