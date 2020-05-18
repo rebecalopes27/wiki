@@ -2,7 +2,7 @@
 title: GIT - Sistema de controle de versões distribuído
 description: Comandos básicos GIT
 published: true
-date: 2020-05-18T01:44:57.992Z
+date: 2020-05-18T01:56:33.641Z
 tags: git, versionamento
 ---
 
@@ -129,7 +129,7 @@ git checkout master
 ```
 * E depois executar
 ```git
-git merge nome_branch
+git merge nome_da_branch
 ```
 # Git hist
 
