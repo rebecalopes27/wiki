@@ -1,8 +1,8 @@
 ---
-title: Sincronismo - Autorização de Usuário 
-description: Acesso ao sincronismo (atualizaNF-Client)
+title: Sincronismo
+description: 
 published: true
-date: 2020-05-20T00:59:31.447Z
+date: 2020-05-20T01:00:54.145Z
 tags: 
 ---
 
