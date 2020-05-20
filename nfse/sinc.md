@@ -2,13 +2,13 @@
 title: Sincronismo 
 description: Sincronismo dos sistemas SAT e Nota Fiscal
 published: true
-date: 2020-05-20T02:23:28.500Z
+date: 2020-05-20T02:24:19.369Z
 tags: sat, sincronismo, nota
 ---
 
 # Sincronismo
 
-* O sincronismo tem por objetivo sincronizar informações que são, em geral, cadastradas no SAT e precisam ser atualizadas também no Nota Fiscal. Informações como: uma nova empresa cadastrada no SAT e seus respectivos dados. Após indicar na empresa que os dados deverão sincronizar com o sistema do Nota Fiscal, esses dados serão automáticamente sincronizados.
+* O sincronismo tem por objetivo sincronizar informações que são, em geral, cadastradas no SAT e precisam ser atualizadas também no Nota Fiscal. Informações como: uma nova empresa cadastrada no SAT e seus respectivos dados, como também baixa de débitos. Após indicar na empresa que os dados deverão sincronizar com o sistema do Nota Fiscal, esses dados serão automáticamente sincronizados.
 
 
 # Executar sincronismo na máquina local
