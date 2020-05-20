@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T01:14:08.775Z
+date: 2020-05-20T01:37:24.727Z
 tags: 
 ---
 
@@ -135,7 +135,24 @@ tags:
 ![parametro_nfclient.png](/imagens/parametro_nfclient.png){.align-center}
 
 
-* Após
+* Será necessário configurar dois parâmetros, que podem ser identificados pela coluna de nome **"chave**". O primeiro parâmetro será o **IP_MAQUINA_CLIENTE**, esse IP deverá ser alterado para o IP local da sua máquina (IPCONFIG para verificar o IP). 
+
+> **Cuidado:** caso haja VM na mesma máquina, talvez seja necessário desinstalar.
+
+* O segundo parâmetro a ser configurado será o **URL_API_SERVER**, nele configurar o seguinte parâmetro: **http://localhost:17170/atualizaNF-Server/api**
+
+Algumas observações quanto ao parâmetro **URL_API_SERVER**
+
+1.  Este parâmetro é utilizado pela API para criar a URL de envio/recebimento de remessa para sincronizar. Portanto, como o projeto esta sendo utilizado localmente, será necessário passar **localhost**. 
+
+2. A porta poderá ser qualquer uma, menos a porta **8080**, pois essa é utilizada pelo banco do Nota Fiscal. No exemplo acima, utiliza-se a porta alta **17170**. 
+
+3. A parte final da URL, identifica qual "atualiza" estamos querendo conectar, no caso o autualizaNF-Server/api.
+
+> **IMPORTANTE**: É necessário na configuração do servidor, para rodar a aplicação do  autualizaNF-Server alterar o contexto da url passando o localhost e porta alterada 
+{.is-danger}
+
+
 
 
 
