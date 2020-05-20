@@ -2,7 +2,7 @@
 title: Sincronismo 
 description: Sincronismo dos sistemas SAT e Nota Fiscal
 published: true
-date: 2020-05-20T02:24:19.369Z
+date: 2020-05-20T02:25:22.427Z
 tags: sat, sincronismo, nota
 ---
 
