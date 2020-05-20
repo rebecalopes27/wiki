@@ -2,7 +2,7 @@
 title: Sincronismo 
 description: Sincronismo dos sistemas SAT e Nota Fiscal
 published: true
-date: 2020-05-20T02:17:07.648Z
+date: 2020-05-20T02:21:02.674Z
 tags: sat, sincronismo, nota
 ---
 
@@ -165,9 +165,9 @@ Algumas observações quanto ao parâmetro **URL_API_SERVER**
 
 * Será necessário configurar três parâmetros, que podem ser identificados pela coluna de nome **"chave**". O primeiro parâmetro será o **IP_MAQUINA_CLIENTE**, esse IP deverá ser alterado para o IP local da sua máquina (IPCONFIG para verificar o IP).
 
-* O segundo parâmetro será o **URL_API_CLIENT**, nele será conigurado o seguinte parâmetro: **http://localhost:8080/atualizaNF-Client/api**
+* O segundo parâmetro será o **URL_API_CLIENT**, nele será configurado o seguinte parâmetro: **http://localhost:8080/atualizaNF-Client/api**
 
-* O terceiro parâmetro será o **URL_API_SERVER** nele será conigurado o seguinte parâmetro: **http://localhost:17170/atualizaNF-Server/api**
+* O terceiro parâmetro será o **URL_API_SERVER** nele será configurado o seguinte parâmetro: **http://localhost:17170/atualizaNF-Server/api**
 
 Após todas as configurações terem sido executadas, será necessário subir  os dois projetos. Startar ambos quase que no mesmo momento, ou o atualizaNF-Server primeiro e depois atualizaNF-Client.
 
