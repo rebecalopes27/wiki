@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T01:01:48.128Z
+date: 2020-05-20T01:06:14.073Z
 tags: 
 ---
 
@@ -35,6 +35,8 @@ tags:
    - **Banco do SAT:** /atualizaNF-ClientDS
 * Segue abaixo um exemplo de configuração:
 
+> Conexão atualizaNF-ClientDS
+{.is-info}
 
 ```Java
 <datasource	jndi-name="java:/atualizaNF-ClientDS" pool-name="atualizaNF-ClientDS"
@@ -54,7 +56,8 @@ tags:
 		</statement>
 	</datasource>
 ```
-> Conexão atualizaNF-ClientDS
+
+> Conexão atualizaNF-ServerDS
 {.is-info}
 
 ```Java
@@ -81,8 +84,47 @@ tags:
 		</statement>
 	</datasource>
 ```
-> Conexão atualizaNF-ServerDS
+
+> Conexão satSincDS
 {.is-info}
+
+```Java
+<datasource	jndi-name="java:/satSincDS" pool-name="satSincDS"
+		jta="false" use-ccm="false" enabled="true">
+		<connection-url>jdbc:firebirdsql:192.168.10.150/3025:D:/Bases/TresLagoas/Tributacao.fdb?lc_ctype=ISO8859_1</connection-url>
+		<driver>jaybird-full-2.2.5.jar</driver>
+		<security>
+			<user-name>****</user-name>
+			<password>****</password>
+		</security>
+		<validation>
+			<validate-on-match>false</validate-on-match>
+			<background-validation>false</background-validation>
+		</validation>
+		<statement>
+			<share-prepared-statements>false</share-prepared-statements>
+		</statement>
+	</datasource>
+```
+> Conexão issDS
+{.is-info}
+
+```Java
+	jta="false" use-ccm="false" enabled="true">
+		<connection-url>jdbc:firebirdsql:192.168.10.233:/dados/firebird/ms_treslagoas_iss.fdb?lc_ctype=ISO8859_1</connection-url>
+		<driver>jaybird-full-2.2.5.jar</driver>
+		<security>
+			<user-name>****</user-name>
+		</security>
+		<validation>
+			<validate-on-match>false</validate-on-match>
+			<background-validation>false</background-validation>
+		</validation>
+		<statement>
+			<share-prepared-statements>false</share-prepared-statements>
+		</statement>
+	</datasource>
+```
 
 
 
