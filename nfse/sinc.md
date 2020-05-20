@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T01:38:12.277Z
+date: 2020-05-20T01:46:28.061Z
 tags: 
 ---
 
@@ -145,11 +145,13 @@ Algumas observações quanto ao parâmetro **URL_API_SERVER**
 
 1.  Este parâmetro é utilizado pela API para criar a URL de envio/recebimento de remessa para sincronizar. Portanto, como o projeto esta sendo utilizado localmente, será necessário passar **localhost**. 
 
-2. A porta poderá ser qualquer uma, menos a porta **8080**, pois essa é utilizada pelo banco do Nota Fiscal. No exemplo acima, utiliza-se a porta alta **17170**. 
+2. A porta poderá ser qualquer uma, menos a porta **8080**, pois essa é utilizada pelo banco do Nota Fiscal. No exemplo acima utiliza-se a porta alta **17170**. 
 
 3. A parte final da URL, identifica qual "atualiza" estamos querendo conectar, no caso o autualizaNF-Server/api.
 
-> **IMPORTANTE**: É necessário na configuração do servidor, para rodar a aplicação do  autualizaNF-Server alterar o contexto da url passando o localhost e porta a alterada. E também é necessário alterar a Port Offiset para 9090.
+![server.png](/imagens/server.png){.align-center}
+
+> **IMPORTANTE**: É necessário na configuração do servidor, para rodar a aplicação do  autualizaNF-Server alterar o contexto da url passando o localhost e porta alterada. Também é necessário alterar a Port Offset para 9090.
 {.is-danger}
 
 
