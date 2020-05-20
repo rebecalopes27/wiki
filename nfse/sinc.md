@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T01:37:24.727Z
+date: 2020-05-20T01:38:12.277Z
 tags: 
 ---
 
@@ -149,8 +149,9 @@ Algumas observações quanto ao parâmetro **URL_API_SERVER**
 
 3. A parte final da URL, identifica qual "atualiza" estamos querendo conectar, no caso o autualizaNF-Server/api.
 
-> **IMPORTANTE**: É necessário na configuração do servidor, para rodar a aplicação do  autualizaNF-Server alterar o contexto da url passando o localhost e porta alterada 
+> **IMPORTANTE**: É necessário na configuração do servidor, para rodar a aplicação do  autualizaNF-Server alterar o contexto da url passando o localhost e porta a alterada. E também é necessário alterar a Port Offiset para 9090.
 {.is-danger}
+
 
 
 
