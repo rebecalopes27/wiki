@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T01:48:13.404Z
+date: 2020-05-20T02:00:22.014Z
 tags: 
 ---
 
@@ -13,7 +13,7 @@ tags:
 
 # Executar sincronismo na máquina local
 
-* Para executar o sincronismo na máquina local será nescessário realizar algumas configurações.Mas antes é necessário entender quais bancos serão utilizados para realizar o sincronismo.
+* Para executar o sincronismo na máquina local será nescessário realizar algumas configurações. Lembrando que executamos simultâneamente duas aplicações: **atualizaNF-Server** e **atualizaNF-Clien**t, uma depende da outra pra funcionarem corretamente. Mas antes é necessário entender quais bancos serão utilizados para realizar o sincronismo.
 
 ## Banco de dados para conexão
 
@@ -128,9 +128,10 @@ tags:
 ```
 
 ## Configurações nos Bancos de Dados
-
 * As próximas configurações serão realizadas nos parâmetros de banco, do SAT e Nota Fiscal.
 
+
+**1. Banco de dados SAT**
 * No banco de dados do SAT (Firebird), na tabela **na_parametro_valor**, nesse banco será configurado as conexões do *atualizaNF-ClientDS*. Realizar o select para consultar os parâmatros, será apresentado algo assim:
 
 ![parametro_nfclient.png](/imagens/parametro_nfclient.png){.align-center}
@@ -149,18 +150,24 @@ Algumas observações quanto ao parâmetro **URL_API_SERVER**
 
 2. A porta poderá ser qualquer uma, menos a porta **8080**, pois essa é utilizada pelo banco do Nota Fiscal. No exemplo acima utiliza-se a porta alta **17170**. 
 
-3. A parte final da URL, identifica qual "atualiza" estamos querendo conectar, no caso o autualizaNF-Server/api.
+3. A parte final da URL, identifica qual "atualiza" estamos querendo conectar, no caso o autualizaNF-Server/api
 
 ![server.png](/imagens/server.png){.align-center}
 
 > **IMPORTANTE**: É necessário na configuração do servidor, para rodar a aplicação do  autualizaNF-Server alterar o contexto da url passando o localhost e porta alterada. Também é necessário alterar a Port Offset para 9090.
 {.is-danger}
 
+**2. Banco de dados Nota Fiscal**
 
+* No banco de dados do Nota Fiscal (PostgreSQL), na tabela **na_parametro_valor**, nesse banco será configurado as conexões do *atualizaNF-ServerDS*. Realizar o select para consultar os parâmatros, será apresentado algo assim: 
 
+![parametro_nfserver.png](/imagens/parametro_nfserver.png){.align-center}
 
+* Será necessário configurar três parâmetros, que podem ser identificados pela coluna de nome **"chave**". O primeiro parâmetro será o **IP_MAQUINA_CLIENTE**, esse IP deverá ser alterado para o IP local da sua máquina (IPCONFIG para verificar o IP).
 
+* O segundo parâmetro será o **URL_API_CLIENT**, nele será conigurado o seguinte parâmetro: **http://localhost:8080/atualizaNF-Client/api**
 
+* O terceiro parâmetro será o **URL_API_SERVER** nele será conigurado o seguinte parâmetro: **http://localhost:17170/atualizaNF-Server/api**
 
 
 
