@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T01:06:14.073Z
+date: 2020-05-20T01:14:08.775Z
 tags: 
 ---
 
@@ -23,7 +23,7 @@ tags:
 - **Banco do SAT ( Sistema de administração Tributária)** 
 - **Banco do Nota Fiscal**
 
-* Esses três bancos será necessário estar o mais atualizados possível. Após atualizar, pode-se começar a próxima etapa de configuração
+* Esses três bancos serão necessário estarem o mais atualizados possível. Após atualizar, pode-se começar a próxima etapa de configuração
 
 ## Conexão do Datasource
 
@@ -126,6 +126,16 @@ tags:
 	</datasource>
 ```
 
+## Configurações nos Bancos de Dados
+
+* As próximas configurações serão realizadas nos parâmetros de banco, do SAT e Nota Fiscal.
+
+* No banco de dados do SAT (Firebird), na tabela **na_parametro_valor**, nesse banco será configurado as conexões do *atualizaNF-ClientDS*. Realizar o select para consultar os parâmatros, será apresentado algo assim:
+
+![parametro_nfclient.png](/imagens/parametro_nfclient.png){.align-center}
+
+
+* Após
 
 
 
