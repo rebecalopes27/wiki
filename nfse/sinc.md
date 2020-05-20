@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T02:15:09.214Z
+date: 2020-05-20T02:16:24.358Z
 tags: 
 ---
 
@@ -175,5 +175,5 @@ Se nenhum erro ocorrer (esperamos que não) pode-se testar o sincronismo relizan
 
 # Acesso externo ao atualizaNF-Server
 
-* Os usários do sistema de Nota Fiscal, com perfil PREFEITURA, geralmente ao alterar/incluir dados em uma empresa no SAT, forçam o sincronismo por dentro do Nota Fiscal. Pode ocorrer de o usuário não conseguir acessar, isso ocorre porque ele precisa ter sido cadastrado e autorizado dentro do próprio sistema atualizaNF-Server.
+* Os usários do sistema de Nota Fiscal, com perfil PREFEITURA, geralmente ao alterar/incluir dados em uma empresa no SAT, forçam o sincronismo por dentro do Nota Fiscal. Pode ocorrer de o usuário não conseguir acessar, isso acontece porque ele precisa ter sido cadastrado e autorizado dentro do próprio sistema atualizaNF-Server.
 
