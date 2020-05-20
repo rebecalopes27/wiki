@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T01:46:28.061Z
+date: 2020-05-20T01:48:13.404Z
 tags: 
 ---
 
@@ -115,6 +115,7 @@ tags:
 		<driver>jaybird-full-2.2.5.jar</driver>
 		<security>
 			<user-name>****</user-name>
+      <password>****</password>
 		</security>
 		<validation>
 			<validate-on-match>false</validate-on-match>
@@ -138,6 +139,7 @@ tags:
 * Será necessário configurar dois parâmetros, que podem ser identificados pela coluna de nome **"chave**". O primeiro parâmetro será o **IP_MAQUINA_CLIENTE**, esse IP deverá ser alterado para o IP local da sua máquina (IPCONFIG para verificar o IP). 
 
 > **Cuidado:** caso haja VM na mesma máquina, talvez seja necessário desinstalar.
+{.is-warning}
 
 * O segundo parâmetro a ser configurado será o **URL_API_SERVER**, nele configurar o seguinte parâmetro: **http://localhost:17170/atualizaNF-Server/api**
 
