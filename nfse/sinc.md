@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T02:06:39.623Z
+date: 2020-05-20T02:15:09.214Z
 tags: 
 ---
 
@@ -172,4 +172,8 @@ Algumas observações quanto ao parâmetro **URL_API_SERVER**
 Após todas as configurações terem sido executadas, será necessário subir  os dois projetos. Startar ambos quase que no mesmo momento, ou o atualizaNF-Server primeiro e depois atualizaNF-Client.
 
 Se nenhum erro ocorrer (esperamos que não) pode-se testar o sincronismo relizando alguma modificação no cadastro da empresa no SAT, sincronizar os dados pelo atualizaNF-Client ou pelo atualizaNF-Server, ao consultar no banco do nota fiscal a informação deverá ter siso incluida/alterada nele também.
+
+# Acesso externo ao atualizaNF-Server
+
+* Os usários do sistema de Nota Fiscal, com perfil PREFEITURA, geralmente ao alterar/incluir dados em uma empresa no SAT, forçam o sincronismo por dentro do Nota Fiscal. Pode ocorrer de o usuário não conseguir acessar, isso ocorre porque ele precisa ter sido cadastrado e autorizado dentro do próprio sistema atualizaNF-Server.
 
