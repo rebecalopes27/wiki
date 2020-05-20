@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T01:00:54.145Z
+date: 2020-05-20T01:01:48.128Z
 tags: 
 ---
 
@@ -55,6 +55,33 @@ tags:
 	</datasource>
 ```
 > Conexão atualizaNF-ClientDS
+{.is-info}
+
+```Java
+<datasource jndi-name="java:/atualizaNF-ServerDS" pool-name="atualizaNF-ServerDS"
+		jta="true" use-ccm="false" enabled="true">
+		<connection-url>jdbc:postgresql://192.168.10.233:5432/ms_treslagoas_nfse</connection-url>
+		<driver-class>org.postgresql.Driver</driver-class>
+		<driver>postgresql-9.4.1212.jar</driver>
+		<security>
+			<user-name>postgres</user-name>
+			<password>n519631a*</password>
+		</security>
+		<validation>
+			<validate-on-match>true</validate-on-match>
+			<background-validation>false</background-validation>
+			<check-valid-connection-sql>SELECT 1</check-valid-connection-sql>
+		</validation>
+		<timeout>
+			<blocking-timeout-millis>30000</blocking-timeout-millis>
+			<idle-timeout-minutes>1</idle-timeout-minutes>
+		</timeout>
+		<statement>
+			<share-prepared-statements>false</share-prepared-statements>
+		</statement>
+	</datasource>
+```
+> Conexão atualizaNF-ServerDS
 {.is-info}
 
 
