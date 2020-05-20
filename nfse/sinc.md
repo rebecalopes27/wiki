@@ -2,7 +2,7 @@
 title: Sincronismo
 description: 
 published: true
-date: 2020-05-20T02:05:17.315Z
+date: 2020-05-20T02:06:39.623Z
 tags: 
 ---
 
@@ -169,7 +169,7 @@ Algumas observações quanto ao parâmetro **URL_API_SERVER**
 
 * O terceiro parâmetro será o **URL_API_SERVER** nele será conigurado o seguinte parâmetro: **http://localhost:17170/atualizaNF-Server/api**
 
-Após todas as configurações terem sido executadas, será necessário subir ambos os projetos. Startar ambos quase que no mesmo momento, ou atualizaNF-Server primeiro e depois atualizaNF-Client.
+Após todas as configurações terem sido executadas, será necessário subir  os dois projetos. Startar ambos quase que no mesmo momento, ou o atualizaNF-Server primeiro e depois atualizaNF-Client.
 
-Se nenhum erro ocorrer (esperamos que não) pode-se testar o sincronismo relizando alguma modificação no cadastro da empresa no SAT, sincronizar os dados,ou pelo atualizaNF-Client ou pelo atualizaNF-Server, ao consultar no banco do nota fiscal a informação deverá ter siso incluida/alterada no nele também.
+Se nenhum erro ocorrer (esperamos que não) pode-se testar o sincronismo relizando alguma modificação no cadastro da empresa no SAT, sincronizar os dados pelo atualizaNF-Client ou pelo atualizaNF-Server, ao consultar no banco do nota fiscal a informação deverá ter siso incluida/alterada nele também.
 
