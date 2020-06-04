@@ -2,7 +2,7 @@
 title: Acesso de Usuário Suporte
 description: Alterações realizadas para que usuário suporte acesse o sistema do Nota Fiscal
 published: true
-date: 2020-06-04T21:16:08.512Z
+date: 2020-06-04T21:17:28.603Z
 tags: suporte, acesso
 ---
 
@@ -20,9 +20,10 @@ tags: suporte, acesso
 
 # Nível de Usuário
 
-* Na tabela "na_usuario" o campo nivelusuario identifica qual o nível de acesso o usuário possui dentro do sistema. Nivel de Acesso igual a 32 é o nível SUPORTE, e o nivel de acesso 64 é o nivel de usuário ROOT, mas no Nota Fiscal equivale ao ADMNI.
+* Na tabela "na_usuario" o campo nivelusuario identifica qual o nível de acesso o usuário possui dentro do sistema. Nivel de Acesso igual a 32 é o nível SUPORTE, e o nivel de acesso 64 é o nivel de usuário ROOT, mas no Nota Fiscal equivale ao ADMIN.
 
-* 
+## Nível 32 - O que pode ou não fazer
+
 
 
 
