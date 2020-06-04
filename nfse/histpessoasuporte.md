@@ -2,7 +2,7 @@
 title: Acesso de Usuário Suporte
 description: Alterações realizadas para que usuário suporte acesse o sistema do Nota Fiscal
 published: true
-date: 2020-06-04T21:27:44.991Z
+date: 2020-06-04T21:28:42.300Z
 tags: suporte, acesso
 ---
 
@@ -31,7 +31,6 @@ tags: suporte, acesso
 ## Nível ADMIN
 
 * O nível admin foi adicionado para poder realizar qualquer procedimento no sistema, todos os CRUDS são permitidos a esse usuário. Ele pode acessar qualquer pessoa no sistema, adicionar qualquer perfil, inclusive de SUPORTE, e remover qualquer pessoa e perfil. Para este usuário o sistema tanto em PRODUÇÃO como HOMOLOGAÇÂO não será aberto como consulta.
-
 
 
 
