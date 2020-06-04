@@ -2,7 +2,7 @@
 title: Acesso de Usuário Suporte
 description: Alterações realizadas para que usuário suporte acesse o sistema do Nota Fiscal
 published: true
-date: 2020-06-04T21:29:11.295Z
+date: 2020-06-04T21:36:13.787Z
 tags: suporte, acesso
 ---
 
@@ -32,6 +32,9 @@ tags: suporte, acesso
 
 * O nível admin foi adicionado para poder realizar qualquer procedimento no sistema, todos os CRUDS são permitidos a esse usuário. Ele pode acessar qualquer pessoa no sistema, adicionar qualquer perfil, inclusive de SUPORTE, e remover qualquer pessoa e perfil. Para este usuário o sistema tanto em PRODUÇÃO como HOMOLOGAÇÂO não será aberto como consulta.
 
+# Primeiro Acesso
+
+* Após cadastrado o usuário no satsync o sistema do Nota Fiscal possui um método que sempre que a aplicação é iniciada ele é executado, o método *criaPessoaUsuarioSuporte()* realiza a busca na tabela "na_usuario", e se houver algum(s) usuário(s) com nível 32/64 ele cria esses usuários na tabela "pessoa", com a senha padrão da empresa, sendo necessário que o usuário efetue a troca da senha no primeiro acesso ao sistema.
 
 
 
