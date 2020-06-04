@@ -2,13 +2,13 @@
 title: Acesso de Usuário Suporte
 description: Alterações realizadas para que usuário suporte acesse o sistema do Nota Fiscal
 published: true
-date: 2020-06-04T21:17:28.603Z
+date: 2020-06-04T21:17:46.867Z
 tags: suporte, acesso
 ---
 
 # Cadastro de usuário SUPORTE
 
-* Alterações foram realizadas visando a melhoria no sistema quanto a nível de segurança e auditoria.
+* Alterações foram realizadas visando a melhoria no sistema quanto ao nível de segurança e auditoria.
 
 * Anteriormente o acesso ao sistema de Nota Fiscal era realizado com o login padrão para todos **SUPORTE** e senha dia. Com as alteraçãoes realizadas no sistema, o acesso para usuários da empresa, será realizado via CPF e senha pessoal.
 
