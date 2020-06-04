@@ -2,7 +2,7 @@
 title: Acesso de Usuário Suporte
 description: Alterações realizadas para que usuário suporte acesse o sistema do Nota Fiscal
 published: true
-date: 2020-06-04T21:28:42.300Z
+date: 2020-06-04T21:29:11.295Z
 tags: suporte, acesso
 ---
 
@@ -22,13 +22,13 @@ tags: suporte, acesso
 
 * Na tabela "na_usuario" o campo nivelusuario identifica qual o nível de acesso o usuário possui dentro do sistema. Nivel de Acesso igual a 32 é o nível SUPORTE, e o nivel de acesso 64 é o nivel de usuário ROOT, mas no Nota Fiscal equivale ao ADMIN.
 
-## Nível SUPORTE
+## SUPORTE
 
 * Atualmente o usuário SUPORTE só poderá acessar o sistema em **modo consulta**, não podendo realizar nenhuma alteração no sistema. Isso apenas em PRODUÇÂO, mas em HOMOLOGAÇÂO o usuário suporte poderá realizar qualquer procedimento.
 
 * Caso o usuário SUPORTE precise realizar urgentemente algum procedimento no sistema, será necessário que um usuário com nível ADMIN acesse o sistema, pois usuário ADMIN não acessa o sistema em modo consulta, sendo  possivel realizar qualquer procedimento no sistema. Ou alterar via banco de dados o perfil do usuário de SUPORTE para ADMIN.
 
-## Nível ADMIN
+## ADMIN
 
 * O nível admin foi adicionado para poder realizar qualquer procedimento no sistema, todos os CRUDS são permitidos a esse usuário. Ele pode acessar qualquer pessoa no sistema, adicionar qualquer perfil, inclusive de SUPORTE, e remover qualquer pessoa e perfil. Para este usuário o sistema tanto em PRODUÇÃO como HOMOLOGAÇÂO não será aberto como consulta.
 
