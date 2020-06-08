@@ -2,7 +2,7 @@
 title: Sincronismo 
 description: Sincronismo dos sistemas SAT e Nota Fiscal
 published: true
-date: 2020-06-06T01:36:17.461Z
+date: 2020-06-08T12:34:51.828Z
 tags: sat, sincronismo, nota
 ---
 
@@ -173,7 +173,7 @@ Após todas as configurações terem sido executadas, será necessário subir  o
 
 Se nenhum erro ocorrer (esperamos que não) pode-se testar o sincronismo relizando alguma modificação no cadastro da empresa no SAT, sincronizar os dados pelo atualizaNF-Client ou pelo atualizaNF-Server, ao consultar no banco do nota fiscal a informação deverá ter siso incluida/alterada nele também.
 
-> OBS: Para um devido funcionamento do sistema quando em testes, alterar o parametro na tabela na_agendamento (sem schema)  da tarefa relacionada com sincronismo. Essa tarefa é disparada a cada 1 minuto, se alterar o campo "ativo" para "N" a tarefa não será mais executada concomitantemente com os testes em máquina local.
+> OBS: Para um devido funcionamento do sistema quando em testes, alterar o parametro na tabela na_agendamento (sem schema) - esse parâmetro só existe quando subir rodar a aplicação do atualizaNF-Server,  da tarefa relacionada com sincronismo. Essa tarefa é disparada a cada 1 minuto, se alterar o campo "ativo" para "N" a tarefa não será mais executada concomitantemente com os testes em máquina local.
 {.is-danger}
 
 
