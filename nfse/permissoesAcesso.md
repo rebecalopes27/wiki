@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:01:06.884Z
+date: 2020-06-29T21:05:03.577Z
 tags: nfse, permissões, usuários
 ---
 
@@ -134,5 +134,6 @@ Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
 3383 | Estado - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
 3597 | Tomador - cancelar | Permissão para **bloquear** o tomador, pois os mesmos não são excluídos do sistema. Aparecerá o ícone X (Bloquear registro). |  Nota Fiscal > Cadastro de Tomador de Serviço | 3
 3603 | Nota Fiscal Emitida - criar
+3604 | Nota Fiscal Recebida - criar | Permissão para criar/escriturar nota fiscal recebida fora do Município. Aparecerá botão “Adicionar” | Nota Fiscal > Escrituração > Documentos Fiscais Recebidos |  <span style="color:blue">3</span>.
 
 
