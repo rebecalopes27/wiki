@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:05:55.132Z
+date: 2020-06-29T21:07:01.009Z
 tags: nfse, permissões, usuários
 ---
 
@@ -126,13 +126,13 @@ Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
 294 | Relatórios Declaracao Mensal - acessar | Permissão para **acessar** menu Declaração Mensal de Serviço | Administração > Relatórios > Declaração Mensal de Serviço | 1
 295 | Menu Fiscalização | Permissão para **acessar** menu Fiscalização | 1
 1319 | Mensagem - acessar | Permissão para **acessar** menu Mensagens da Empresa | Arquivo > Mensagens da Empresa | 1
-3043 | Mensagem - criar | Permissão para **criar** Mensagens da Empresa.Aparecera botão “Adicionar” | Arquivo > Mensagens da Empresa | 3
-3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | 1
-3070 | Mensagem - alterar | Permissão para **editar** Mensagens da Empresa. Aparecera ícone “Editar” | Arquivo > Mensagens da Empresa | 3
-3071 | Mensagem - apagar | Permissão para **deletar** Mensagens da Empresa. Aparecera ícone de exclusão. | Arquivo > Mensagens da Empresa | 3
+3043 | Mensagem - criar | Permissão para **criar** Mensagens da Empresa.Aparecera botão “Adicionar” | Arquivo > Mensagens da Empresa | 3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
+3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:green">3</span>
+3070 | Mensagem - alterar | Permissão para **editar** Mensagens da Empresa. Aparecera ícone “Editar” | Arquivo > Mensagens da Empresa |<span style="color:orange">3</span>
+3071 | Mensagem - apagar | Permissão para **deletar** Mensagens da Empresa. Aparecera ícone de exclusão. | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
 3366 | Perfil - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
 3383 | Estado - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-3597 | Tomador - cancelar | Permissão para **bloquear** o tomador, pois os mesmos não são excluídos do sistema. Aparecerá o ícone X (Bloquear registro). |  Nota Fiscal > Cadastro de Tomador de Serviço | 3
+3597 | Tomador - cancelar | Permissão para **bloquear** o tomador, pois os mesmos não são excluídos do sistema. Aparecerá o ícone X (Bloquear registro). |  Nota Fiscal > Cadastro de Tomador de Serviço | <span style="color:orange">3</span>
 3603 | Nota Fiscal Emitida - criar
 3604 | Nota Fiscal Recebida - criar | Permissão para criar/escriturar nota fiscal recebida fora do Município. Aparecerá botão “Adicionar” | Nota Fiscal > Escrituração > Documentos Fiscais Recebidos |  <span style="color:orange">3</span>
 
