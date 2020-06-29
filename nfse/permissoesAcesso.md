@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T18:36:15.226Z
+date: 2020-06-29T19:11:28.899Z
 tags: nfse, permissões, usuários
 ---
 
@@ -109,8 +109,29 @@ tags: nfse, permissões, usuários
 269 | Legislacao - pesquisar | Permissão para **pesquisar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
 270 | Legislacao - alterar | Permissão para **editar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
 271 | TabItemServico - pesquisar | Permissão para pesquisar Cadastro de Itens de Serviço (LC 116) | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 1
-272 | TabItemServico - alterar | Permissão para editar o Itens de Serviço (LC 116). Aparecerá ícone “Editar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5 
-273 | TabItemServico - criar | Permissão para criar de Itens de Serviço (LC 116). Aparecerá botão “Salvar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5
-274 | Manual - acessar | Permissão para acessar menu Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
+272 | TabItemServico - alterar | Permissão para **editar** o Itens de Serviço (LC 116). Aparecerá ícone “Editar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5 
+273 | TabItemServico - criar | Permissão para **criar** de Itens de Serviço (LC 116). Aparecerá botão “Salvar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5
+274 | Manual - acessar | Permissão para **acessar** menu Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
+275 | ManualGrupo - acessar | Permissão para **acessar** menu Cadastro de Grupo de Manual | 1
+280 | Manual - criar | Permissão para **criar** Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1 
+281 | Manual - pesquisar | Permissão para **pesquisar** Cadastro de Manual | 
+Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
+283 | ManualGrupo - criar | Permissão para **criar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
+284 | ManualGrupo - alterar | Permissão para **editar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
+285 | ManualGrupo - apagar | Permissão para **deletar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
+286 | Manual - alterar | Permissão para **editar** manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
+287 | Manual - apagar | Permissão para **deletar** manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
+288 | Legislacao - apagar | Permissão para **deletar** Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
+293 | TabItemServico - apagar | Permissão para **deletar** o Itens de Serviço (LC 116). Aparecerá botão “Apagar” |Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5
+294 | Relatórios Declaracao Mensal - acessar | Permissão para **acessar** menu Declaração Mensal de Serviço | Administração > Relatórios > Declaração Mensal de Serviço | 1
+295 | Menu Fiscalização | Permissão para **acessar** menu Fiscalização | 1
+1319 | Mensagem - acessar | Permissão para **acessar** menu Mensagens da Empresa | Arquivo > Mensagens da Empresa | 1
+3043 | Mensagem - criar | Permissão para **criar** Mensagens da Empresa.Aparecera botão “Adicionar” | Arquivo > Mensagens da Empresa | 3
+3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | 1
+3070 | Mensagem - alterar | Permissão para **editar** Mensagens da Empresa. Aparecera ícone “Editar” | Arquivo > Mensagens da Empresa | 3
+3071 | Mensagem - apagar | Permissão para **deletar** Mensagens da Empresa. Aparecera ícone de exclusão. | Arquivo > Mensagens da Empresa | 3
+3366 | Perfil - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+3383 | Estado - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+3597 | Tomador - cancelar | Permissão para **bloquear** o tomador, pois os mesmos não são excluídos do sistema. Aparecerá o ícone X (Bloquear registro). |  Nota Fiscal > Cadastro de Tomador de Serviço | 3
 
 
