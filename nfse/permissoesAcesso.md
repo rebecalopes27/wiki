@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T17:57:25.967Z
+date: 2020-06-29T18:11:41.559Z
 tags: nfse, permissões, usuários
 ---
 
@@ -67,6 +67,25 @@ tags: nfse, permissões, usuários
 176 | Pessoa - alterar | Permissão para **alterar** informações de pessoas cadastradas no sistema. (CPF/CNPJ, Nome, E-mail). Aparecerá o ícone de editar. | Administração > Cadastro de Pessoa | 5
 177 | Pessoa - apagar | Permissão para **deletar** pessoas do sistema. Aparecerá o ícone de exclusão. | Administração > Cadastro de Pessoa | 5
 183 | Pessoa - adicionar perfil |  Permissão para **adicionar** perfil a uma pessoa cadastrada no sistema. | Administração > Cadastro de Pessoa.Botão “Adicionar”. Model “Perfil da Pessoa” | 5
-
-
-
+187 | Agendamento - criar | Permissão para **adicionar** agendamento de tarefas. Aparecerá o botão “Adicionar” | Administração > Cadastro de Agendamentos. | 5
+188 | Agendamento - pesquisar | Permissão para **pesquisar** tarefas agendadas no sistema. Botão “Pesquisar” | Administração > Cadastro de Agendamentos. | 1
+189 | TabCargo - criar | Permissão para **criar** novo cargo no sistema. Botão “Adicionar” | Administração > Auxiliares > Cadastro de Cargos | 1
+190 | TabCargo - pesquisar | Permissão para pesquisar cargo no sistema. Botão “Pesquisar” | Administração > Auxiliares > Cadastro de Cargos | 1
+191 | TabCargo - alterar | Permissão para **alterar** cargo no sistema. | Administração > Auxiliares > Cadastro de Cargos | 3
+192 | TabCargo - apagar | Permissão para excluir cargo no sistema. | Administração > Auxiliares > Cadastro de Cargos | 3
+195 | PortalEconomico - alterar | Permissão para alterar informações do portal econômico. | Administração > Auxiliares > Portal Econômico > Configurações do Portal Econômico | 3
+196 | PortalEconomico - criar | Permissão para **alterar** informações do portal econômico. (Não cria apenas altera). | Administração > Auxiliares > Portal Econômico > Configurações do Portal Econômico | 3
+213 | Pessoa - remover perfil | Permissão para **remover** perfil de uma pessoa cadastrada no sistema. | Administração > Cadastro de Pessoa.Botão “Adicionar”. Model “Perfil da Pessoa” | 5
+214 | Agendamento - alterar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de “Editar”. | 5
+222 | ParametroSistema - alterar | Permissão **alterar** parâmetros do sistema.Ex: prorrogar data de vencimento do ISS. | Administração > Configurações do Sistema | 5
+230 | TabTipoDeducao - criar | Permissão para **criar** tipo de dedução para Notas Fiscais. | Administração > Auxiliares > Cadastro de Tipo de Dedução | 3
+231 | TabTipoDeducao - pesquisar | Permissão para **pesquisar** tipos de dedução. Aparecerá botão “Pesquisar” | Administração > Auxiliares > Cadastro de Tipo de Dedução | 1
+232 | tabTipoDeducao - alterar | Permissão para **editar** tipos de dedução. Aparecerá ícone de “Editar” | Administração > Auxiliares > Cadastro de Tipo de Dedução | 3
+233 | tabTipoDeducao - apagar | Permissão para **deletar** tipos de dedução. Aparecerá ícone de exclusão. | Administração > Auxiliares > Cadastro de Tipo de Dedução | 3
+236 | TabAtividade - criar | Permissão para **criar** atividades da empresa. Não cria atividades, pois as mesmas são cadastradas no SAT sincronizadas no NF. | Administração > Auxiliares > Cadastro de Atividade (CNAE) | 5
+237 | TabAtividade - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+240 | TabAtividade - alterar | Permissão para **editar** atividades da empresa. Aparecerá botão “Editar” | Administração > Auxiliares > Cadastro de Atividade (CNAE) | 5
+241 | Agendamento - apagar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de exclusão. | Administração > Cadastro de Agendamentos | 5
+242 | Agendamento - apagar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de exclusão. | Administração > Cadastro de Agendamento | 5
+244 | Relatórios Gerenciais - acessar | Permissão para **acessar** relatórios gerenciais. | Administração > Relatórios > Gerenciais | 1
+245 | CadEconomicoBeneficioFiscal - acessar | Permissão para **acessar** o menu de Cadastro de Benefício Fiscal | Administração > Cadastro de Benefício Fiscal | 1
