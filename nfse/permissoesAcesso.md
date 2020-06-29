@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:36:10.790Z
+date: 2020-06-29T21:36:56.072Z
 tags: nfse, permissões, usuários
 ---
 
@@ -76,7 +76,7 @@ tags: nfse, permissões, usuários
 195 | PortalEconomico - alterar | Permissão para alterar informações do portal econômico. | Administração > Auxiliares > Portal Econômico > Configurações do Portal Econômico | 3
 196 | PortalEconomico - criar | Permissão para **alterar** informações do portal econômico. (Não cria apenas altera). | Administração > Auxiliares > Portal Econômico > Configurações do Portal Econômico | 3
 213 | Pessoa - remover perfil | Permissão para **remover** perfil de uma pessoa cadastrada no sistema. | Administração > Cadastro de Pessoa.Botão “Adicionar”. Model “Perfil da Pessoa” | 5
-214 | Agendamento - alterar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de “Editar”. | 5
+214 | Agendamento - alterar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de “Editar”. | Administração > Cadastro de Agendamentos | 5
 222 | ParametroSistema - alterar | Permissão **alterar** parâmetros do sistema.Ex: prorrogar data de vencimento do ISS. | Administração > Configurações do Sistema | 5
 230 | TabTipoDeducao - criar | Permissão para **criar** tipo de dedução para Notas Fiscais. | Administração > Auxiliares > Cadastro de Tipo de Dedução | 3
 231 | TabTipoDeducao - pesquisar | Permissão para **pesquisar** tipos de dedução. Aparecerá botão “Pesquisar” | Administração > Auxiliares > Cadastro de Tipo de Dedução | 1
