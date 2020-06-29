@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:55:21.371Z
+date: 2020-06-29T21:56:01.258Z
 tags: nfse, permissões, usuários
 ---
 
@@ -135,5 +135,6 @@ tags: nfse, permissões, usuários
 3603 | Nota Fiscal Emitida - criar | Permissão para **criar**/escriturar nota fiscal emitida fora do Município. Aparecerá botão “Adicionar” | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:orange">3</span>
 3604 | Nota Fiscal Recebida - criar | Permissão para **criar**/escriturar nota fiscal recebida fora do Município. Aparecerá botão “Adicionar” | Nota Fiscal > Escrituração > Documentos Fiscais Recebidos |  <span style="color:orange">3</span>
 3605 | Nota Fiscal Emitida - alterar | Permissão para editar nota fiscal emitida fora do Município. Aparecerá ícone “Editar” | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:red">5</span>
+3606 | Nota Fiscal Emitida - cancelar | Permissão para cancelar nota fiscal emitida fora do Município. Aparecerá ícone X (Cancelar Nota). | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:red">5</span>
 
 
