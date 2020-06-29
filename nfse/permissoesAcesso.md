@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:07:01.009Z
+date: 2020-06-29T21:25:06.356Z
 tags: nfse, permissões, usuários
 ---
 
@@ -122,10 +122,10 @@ Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
 286 | Manual - alterar | Permissão para **editar** manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
 287 | Manual - apagar | Permissão para **deletar** manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
 288 | Legislacao - apagar | Permissão para **deletar** Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
-293 | TabItemServico - apagar | Permissão para **deletar** o Itens de Serviço (LC 116). Aparecerá botão “Apagar” |Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5
-294 | Relatórios Declaracao Mensal - acessar | Permissão para **acessar** menu Declaração Mensal de Serviço | Administração > Relatórios > Declaração Mensal de Serviço | 1
-295 | Menu Fiscalização | Permissão para **acessar** menu Fiscalização | 1
-1319 | Mensagem - acessar | Permissão para **acessar** menu Mensagens da Empresa | Arquivo > Mensagens da Empresa | 1
+293 | TabItemServico - apagar | Permissão para **deletar** o Itens de Serviço (LC 116). Aparecerá botão “Apagar” |Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | <span style="color:red">5</span>
+294 | Relatórios Declaracao Mensal - acessar | Permissão para **acessar** menu Declaração Mensal de Serviço | Administração > Relatórios > Declaração Mensal de Serviço | <span style="color:green">1</span>
+295 | Menu Fiscalização | Permissão para **acessar** menu Fiscalização | <span style="color:green">1</span>
+1319 | Mensagem - acessar | Permissão para **acessar** menu Mensagens da Empresa | Arquivo > Mensagens da Empresa | <span style="color:green">1</span>
 3043 | Mensagem - criar | Permissão para **criar** Mensagens da Empresa.Aparecera botão “Adicionar” | Arquivo > Mensagens da Empresa | 3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
 3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:green">3</span>
 3070 | Mensagem - alterar | Permissão para **editar** Mensagens da Empresa. Aparecera ícone “Editar” | Arquivo > Mensagens da Empresa |<span style="color:orange">3</span>
