@@ -2,7 +2,7 @@
 title: Acesso de Usuário Suporte
 description: Alterações realizadas para que usuário suporte acesse o sistema do Nota Fiscal
 published: true
-date: 2020-06-04T21:36:13.787Z
+date: 2020-06-29T15:28:52.168Z
 tags: suporte, acesso
 ---
 
@@ -16,7 +16,7 @@ tags: suporte, acesso
 
 # Comportamento do Sistema
 
-* O Nota Fiscal atualmente (06/2020) não trabalha com a tabela "na_usuario" para atenticação de usuários no sistema, a tabela "pessoa" é usada para isso. Portanto, o sistema verifica se há usuários com nível 32/64 na tabela "na_usuario" e cria novos usuários na tabela "pessoa" vinculando na tabela "pessoaperfil" o id da pessoa e o perfil de usuário suporte ou administrador. Caso não exista mais o usuário na tabela "na_usuario", ele juntamente com o perfil, são removidos da tabela pessoa.
+* O Nota Fiscal atualmente (06/2020) não trabalha com a tabela "na_usuario" para atenticação de usuários no sistema, a tabela "pessoa" é usada para isso. Portanto, o sistema agora possui a opção "Sincronizar Usários SUPORTE" no menu "Sistema", essa opção irá verificar se há usuários com nível 32/64 na tabela "na_usuario" e cria novos usuários na tabela "pessoa" vinculando na tabela "pessoaperfil" o id da pessoa e o perfil de usuário suporte ou administrador. Caso não exista mais o usuário na tabela "na_usuario", ele juntamente com o perfil, serão removidos da tabela pessoa. 
 
 # Nível de Usuário
 
@@ -34,7 +34,7 @@ tags: suporte, acesso
 
 # Primeiro Acesso
 
-* Após cadastrado o usuário no satsync o sistema do Nota Fiscal possui um método que sempre que a aplicação é iniciada ele é executado, o método *criaPessoaUsuarioSuporte()* realiza a busca na tabela "na_usuario", e se houver algum(s) usuário(s) com nível 32/64 ele cria esses usuários na tabela "pessoa", com a senha padrão da empresa, sendo necessário que o usuário efetue a troca da senha no primeiro acesso ao sistema.
+* Após cadastrado o usuário no satsync será necessário sincronizar os usuários com nível Suporte que estão na tabela na_usuário, o método chamado na opção "Sincronizar usuários SUPORTE *criaPessoaUsuarioSuporte()* realiza a busca na tabela "na_usuario", e se houver algum(s) usuário(s) com nível 32/64 ele cria esses usuários na tabela "pessoa", com a senha padrão da empresa, sendo necessário que o usuário efetue a troca da senha no primeiro acesso ao sistema.
 
 
 
