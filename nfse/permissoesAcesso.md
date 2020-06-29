@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T19:11:28.899Z
+date: 2020-06-29T21:01:06.884Z
 tags: nfse, permissões, usuários
 ---
 
@@ -133,5 +133,6 @@ Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
 3366 | Perfil - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
 3383 | Estado - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
 3597 | Tomador - cancelar | Permissão para **bloquear** o tomador, pois os mesmos não são excluídos do sistema. Aparecerá o ícone X (Bloquear registro). |  Nota Fiscal > Cadastro de Tomador de Serviço | 3
+3603 | Nota Fiscal Emitida - criar
 
 
