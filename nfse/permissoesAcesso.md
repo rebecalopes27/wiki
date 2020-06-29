@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:32:58.311Z
+date: 2020-06-29T21:34:37.400Z
 tags: nfse, permissões, usuários
 ---
 
@@ -125,7 +125,8 @@ tags: nfse, permissões, usuários
 294 | Relatórios Declaracao Mensal - acessar | Permissão para **acessar** menu Declaração Mensal de Serviço | Administração > Relatórios > Declaração Mensal de Serviço | <span style="color:green">1</span>
 295 | Menu Fiscalização | Permissão para **acessar** menu Fiscalização | Menu Fiscalização | <span style="color:green">1</span>
 1319 | Mensagem - acessar | Permissão para **acessar** menu Mensagens da Empresa | Arquivo > Mensagens da Empresa | <span style="color:green">1</span>
-3043 | Mensagem - criar | Permissão para **criar** Mensagens da Empresa.Aparecera botão “Adicionar” | Arquivo > Mensagens da Empresa | <span style="color:green">1</span> 3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
+3043 | Mensagem - criar | Permissão para **criar** Mensagens da Empresa.Aparecera botão “Adicionar” | Arquivo > Mensagens da Empresa | <span style="color:green">1</span> 
+3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
 3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:green">3</span>
 3070 | Mensagem - alterar | Permissão para **editar** Mensagens da Empresa. Aparecera ícone “Editar” | Arquivo > Mensagens da Empresa |<span style="color:orange">3</span>
 3071 | Mensagem - apagar | Permissão para **deletar** Mensagens da Empresa. Aparecera ícone de exclusão. | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
