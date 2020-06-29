@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:32:28.181Z
+date: 2020-06-29T21:32:58.311Z
 tags: nfse, permissões, usuários
 ---
 
