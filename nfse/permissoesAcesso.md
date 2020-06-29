@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T17:49:07.922Z
+date: 2020-06-29T17:57:25.967Z
 tags: nfse, permissões, usuários
 ---
 
@@ -55,5 +55,18 @@ tags: nfse, permissões, usuários
 140 | Nota Fiscal - emitir | Permissão para **emitir** Nota Fiscal | Nota Fiscal > Emitir Nota Fiscal | 5
 141 | Nota Fiscal - consulta emitidas | Permissão para **consultar** Notas emitidas pelas empresas | Nota Fiscal > Consulta Nota Fiscal > Emitida | 1
 142 | Nota Fiscal - consulta recebidas | Permissão para **consultar** Notas recebidas pelas empresas | Nota Fiscal > Consulta Nota Fiscal > Recebida | 1
+143 | Encerrar Movimento - acessar (Mensal) | Permissão para **encerrar** Movimento Mensal | Encerramento > Encerramento Mensal | 5
+144 | Encerrar Movimento - acessar (Por Nota) | Permissão para **encerrar** Movimento por Nota | Encerramento > Encerramento por Nota Fiscal | 5
+145 | Encerrar Movimento - cancelar | Permissão para **visualizar** Movimento encerrado | Encerramento > Consultar Encerramento | 1
+146 | Segurança - Auditoria desta Empresa | Permissão para **acessar** o menu de auditoria da empresa selecionada | Segurança > Auditoria | 1
+147 | MovimentoMensal - cancelar | Permissão para **cancelar** Movimento Mensal (botão de cancelar movimento será exibido) | Encerramento > Consultar Encerramento | 5
+148 | Tomador - apagar | Permissão para **deletar** tomador do sistema. Aparecerá o ícone para exclusão | Nota Fiscal > Cadastro de Tomador de Serviço | 5
+173 | RPS - download aplicativo | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+174 | Pessoa - criar  | Permissão para **cadastrar** pessoa no sistema. Aparecerá o botão de “Adicionar” | Administração > Cadastro de Pessoa | 5
+175 | Pessoa - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+176 | Pessoa - alterar | Permissão para **alterar** informações de pessoas cadastradas no sistema. (CPF/CNPJ, Nome, E-mail). Aparecerá o ícone de editar. | Administração > Cadastro de Pessoa | 5
+177 | Pessoa - apagar | Permissão para **deletar** pessoas do sistema. Aparecerá o ícone de exclusão. | Administração > Cadastro de Pessoa | 5
+183 | Pessoa - adicionar perfil |  Permissão para **adicionar** perfil a uma pessoa cadastrada no sistema. | Administração > Cadastro de Pessoa.Botão “Adicionar”. Model “Perfil da Pessoa” | 5
+
 
 
