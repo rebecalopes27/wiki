@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T17:42:01.628Z
+date: 2020-06-29T17:49:07.922Z
 tags: nfse, permissões, usuários
 ---
 
@@ -43,3 +43,17 @@ tags: nfse, permissões, usuários
 128 | PortalEconomico - acessar | Permissão para **acessar** o menu Portal Econômico | Administração > Auxiliares > Portal Econômico | 1
 129 | TabAtividade - acessar | Permissão para **visualizar** o cadastro de atividades das empresas | Administração > Auxiliares > Cadastro de Atividade (CNAE) | 1
 130 | TabCargo - acessar | Permissão para **visualizar** o cadastro de cargos | Administração > Auxiliares > Cadastro de Cargos | 1
+131 | TabNaturezaJuridica - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO 
+132 | TabTipoDeducao - acessar | Permissão para **visualizar** o cadastro de tipo de deduções para notas fiscais | Administração > Auxiliares > Cadastro de Tipo de Dedução | 1
+133 | Tomador - acessar | Permissão para **visualizar** o cadastro de tomadores de serviços das empresas | Nota Fiscal > Cadastro de Tomador de Serviço | 1
+134 | Tomador - alterar | Permissão para **editar** o cadastro de tomadores de serviços das empresas | Nota Fiscal > Cadastro de Tomador de Serviço | 3
+135 | Tomador - criar | Permissão para **criar** tomadores de serviços das empresas | Nota Fiscal > Cadastro de Tomador de Serviço | 3
+136 | Tomador - pesquisar | Permissão para **pesquisar** tomadores de serviços das empresas | Nota Fiscal > Cadastro de Tomador de Serviço | 1
+137 | RPS - acessar | Permissão para **visualizar** RPS enviados pelas empresas | RPS > Consulta RPS | 1
+138 | CadEconomico - vincular Subusuários | Permissão para **visualizar** menu de Autorização de Pessoa vinculada a empresa | Arquivo > Autorização de Pessoa | 1
+139 | CadEconomico - exportar dados | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+140 | Nota Fiscal - emitir | Permissão para **emitir** Nota Fiscal | Nota Fiscal > Emitir Nota Fiscal | 5
+141 | Nota Fiscal - consulta emitidas | Permissão para **consultar** Notas emitidas pelas empresas | Nota Fiscal > Consulta Nota Fiscal > Emitida | 1
+142 | Nota Fiscal - consulta recebidas | Permissão para **consultar** Notas recebidas pelas empresas | Nota Fiscal > Consulta Nota Fiscal > Recebida | 1
+
+
