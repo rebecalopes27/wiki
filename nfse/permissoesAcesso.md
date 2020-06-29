@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:39:33.127Z
+date: 2020-06-29T21:47:11.074Z
 tags: nfse, permissões, usuários
 ---
 
@@ -69,58 +69,58 @@ tags: nfse, permissões, usuários
 183 | Pessoa - adicionar perfil |  Permissão para **adicionar** perfil a uma pessoa cadastrada no sistema. | Administração > Cadastro de Pessoa.Botão “Adicionar”. Model “Perfil da Pessoa” | 5
 187 | Agendamento - criar | Permissão para **adicionar** agendamento de tarefas. Aparecerá o botão “Adicionar” | Administração > Cadastro de Agendamentos. | 5
 188 | Agendamento - pesquisar | Permissão para **pesquisar** tarefas agendadas no sistema. Botão “Pesquisar” | Administração > Cadastro de Agendamentos. | 1
-189 | TabCargo - criar | Permissão para **criar** novo cargo no sistema. Botão “Adicionar” | Administração > Auxiliares > Cadastro de Cargos | 1
-190 | TabCargo - pesquisar | Permissão para pesquisar cargo no sistema. Botão “Pesquisar” | Administração > Auxiliares > Cadastro de Cargos | 1
-191 | TabCargo - alterar | Permissão para **alterar** cargo no sistema. | Administração > Auxiliares > Cadastro de Cargos | 3
-192 | TabCargo - apagar | Permissão para excluir cargo no sistema. | Administração > Auxiliares > Cadastro de Cargos | 3
-195 | PortalEconomico - alterar | Permissão para alterar informações do portal econômico. | Administração > Auxiliares > Portal Econômico > Configurações do Portal Econômico | 3
-196 | PortalEconomico - criar | Permissão para **alterar** informações do portal econômico. (Não cria apenas altera). | Administração > Auxiliares > Portal Econômico > Configurações do Portal Econômico | 3
-213 | Pessoa - remover perfil | Permissão para **remover** perfil de uma pessoa cadastrada no sistema. | Administração > Cadastro de Pessoa.Botão “Adicionar”. Model “Perfil da Pessoa” | 5
-214 | Agendamento - alterar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de “Editar”. | Administração > Cadastro de Agendamentos | 5
-222 | ParametroSistema - alterar | Permissão **alterar** parâmetros do sistema.Ex: prorrogar data de vencimento do ISS. | Administração > Configurações do Sistema | 5
-230 | TabTipoDeducao - criar | Permissão para **criar** tipo de dedução para Notas Fiscais. | Administração > Auxiliares > Cadastro de Tipo de Dedução | 3
-231 | TabTipoDeducao - pesquisar | Permissão para **pesquisar** tipos de dedução. Aparecerá botão “Pesquisar” | Administração > Auxiliares > Cadastro de Tipo de Dedução | 1
-232 | tabTipoDeducao - alterar | Permissão para **editar** tipos de dedução. Aparecerá ícone de “Editar” | Administração > Auxiliares > Cadastro de Tipo de Dedução | 3
-233 | tabTipoDeducao - apagar | Permissão para **deletar** tipos de dedução. Aparecerá ícone de exclusão. | Administração > Auxiliares > Cadastro de Tipo de Dedução | 3
-236 | TabAtividade - criar | Permissão para **criar** atividades da empresa. Não cria atividades, pois as mesmas são cadastradas no SAT sincronizadas no NF. | Administração > Auxiliares > Cadastro de Atividade (CNAE) | 5
+189 | TabCargo - criar | Permissão para **criar** novo cargo no sistema. Botão “Adicionar” | Administração > Auxiliares > Cadastro de Cargos | <span style="color:green">1</span>
+190 | TabCargo - pesquisar | Permissão para pesquisar cargo no sistema. Botão “Pesquisar” | Administração > Auxiliares > Cadastro de Cargos | <span style="color:green">1</span>
+191 | TabCargo - alterar | Permissão para **alterar** cargo no sistema. | Administração > Auxiliares > Cadastro de Cargos | <span style="color:orange">3</span>
+192 | TabCargo - apagar | Permissão para excluir cargo no sistema. | Administração > Auxiliares > Cadastro de Cargos | <span style="color:orange">3</span>
+195 | PortalEconomico - alterar | Permissão para alterar informações do portal econômico. | Administração > Auxiliares > Portal Econômico > Configurações do Portal Econômico | <span style="color:orange">3</span>
+196 | PortalEconomico - criar | Permissão para **alterar** informações do portal econômico. (Não cria apenas altera). | Administração > Auxiliares > Portal Econômico > Configurações do Portal Econômico | <span style="color:orange">3</span>
+213 | Pessoa - remover perfil | Permissão para **remover** perfil de uma pessoa cadastrada no sistema. | Administração > Cadastro de Pessoa.Botão “Adicionar”. Model “Perfil da Pessoa” | <span style="color:red">5</span>
+214 | Agendamento - alterar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de “Editar”. | Administração > Cadastro de Agendamentos | <span style="color:red">5</span>
+222 | ParametroSistema - alterar | Permissão **alterar** parâmetros do sistema.Ex: prorrogar data de vencimento do ISS. | Administração > Configurações do Sistema | <span style="color:red">5</span>
+230 | TabTipoDeducao - criar | Permissão para **criar** tipo de dedução para Notas Fiscais. | Administração > Auxiliares > Cadastro de Tipo de Dedução | <span style="color:orange">3</span>
+231 | TabTipoDeducao - pesquisar | Permissão para **pesquisar** tipos de dedução. Aparecerá botão “Pesquisar” | Administração > Auxiliares > Cadastro de Tipo de Dedução | <span style="color:green">1</span>
+232 | tabTipoDeducao - alterar | Permissão para **editar** tipos de dedução. Aparecerá ícone de “Editar” | Administração > Auxiliares > Cadastro de Tipo de Dedução | <span style="color:orange">3</span>
+233 | tabTipoDeducao - apagar | Permissão para **deletar** tipos de dedução. Aparecerá ícone de exclusão. | Administração > Auxiliares > Cadastro de Tipo de Dedução | <span style="color:orange">3</span>
+236 | TabAtividade - criar | Permissão para **criar** atividades da empresa. Não cria atividades, pois as mesmas são cadastradas no SAT sincronizadas no NF. | Administração > Auxiliares > Cadastro de Atividade (CNAE) | <span style="color:red">5</span>
 237 | TabAtividade - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-240 | TabAtividade - alterar | Permissão para **editar** atividades da empresa. Aparecerá botão “Editar” | Administração > Auxiliares > Cadastro de Atividade (CNAE) | 5
-241 | Agendamento - apagar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de exclusão. | Administração > Cadastro de Agendamentos | 5
-242 | Agendamento - apagar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de exclusão. | Administração > Cadastro de Agendamento | 5
-244 | Relatórios Gerenciais - acessar | Permissão para **acessar** relatórios gerenciais. | Administração > Relatórios > Gerenciais | 1
-245 | CadEconomicoBeneficioFiscal - acessar | Permissão para **acessar** o menu de Cadastro de Benefício Fiscal | Administração > Cadastro de Benefício Fiscal | 1
-246 | CadEconomicoBeneficioFiscal - criar | Permissão para criar o menu de Cadastro de Benefício Fiscal. Aparecerá botão “Adicionar” | Administração > Cadastro de Benefício Fiscal | 3
+240 | TabAtividade - alterar | Permissão para **editar** atividades da empresa. Aparecerá botão “Editar” | Administração > Auxiliares > Cadastro de Atividade (CNAE) | <span style="color:red">5</span>
+241 | Agendamento - apagar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de exclusão. | Administração > Cadastro de Agendamentos | <span style="color:red">5</span>
+242 | Agendamento - apagar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de exclusão. | Administração > Cadastro de Agendamento | <span style="color:red">5</span>
+244 | Relatórios Gerenciais - acessar | Permissão para **acessar** relatórios gerenciais. | Administração > Relatórios > Gerenciais | <span style="color:green">1</span>
+245 | CadEconomicoBeneficioFiscal - acessar | Permissão para **acessar** o menu de Cadastro de Benefício Fiscal | Administração > Cadastro de Benefício Fiscal | <span style="color:green">1</span>
+246 | CadEconomicoBeneficioFiscal - criar | Permissão para criar o menu de Cadastro de Benefício Fiscal. Aparecerá botão “Adicionar” | Administração > Cadastro de Benefício Fiscal | <span style="color:orange">3</span>
 247 | CadEconomicoBeneficioFiscal - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-248 | CadEconomicoBeneficioFiscal - alterar | Permissão para editar o Cadastro de Benefício Fiscal. Aparecerá botão “Salvar | Administração > Cadastro de Benefício Fiscal | 3
-249 | CadEconomicoBeneficioFiscal - cancelar | Permissão para bloquear benefício fiscal, pois os mesmos não são excluídos do sistema. Aparecerá o ícone de X(cancelar). | Administração > Cadastro de Benefício Fiscal | 3
-254 | Pergunta - acessar | Permissão para acessar menu de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
-255 | PerguntaGrupo - acessar | Permissão para **acessar** menu de grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
-256 | PerguntaGrupo - criar | Permissão para **criar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
-257 | PerguntaGrupo - pesquisar | Permissão para **pesquisar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
-258 | PerguntaGrupo - alterar | Permissão para **editar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
-259 | PerguntaGrupo - apagar | Permissão para **deletar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
-260 | Pergunta - criar | Permissão para **criar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
-261 | Pergunta - pesquisar |  Permissão para **pesquisar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
-262 | Pergunta - alterar | Permissão para **editar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
-263 | Pergunta - apagar | Permissão para **deletar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
-266 | TabItemServico - acessar | Permissão para **acessar** menu Cadastro de Itens de Serviço (LC 116) | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 1
-267 | Legislacao - acessar | Permissão para **acessar** menu Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
-268 | Legislacao - criar | Permissão para **criar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1 
-269 | Legislacao - pesquisar | Permissão para **pesquisar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
-270 | Legislacao - alterar | Permissão para **editar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
-271 | TabItemServico - pesquisar | Permissão para pesquisar Cadastro de Itens de Serviço (LC 116) | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 1
-272 | TabItemServico - alterar | Permissão para **editar** o Itens de Serviço (LC 116). Aparecerá ícone “Editar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5 
-273 | TabItemServico - criar | Permissão para **criar** de Itens de Serviço (LC 116). Aparecerá botão “Salvar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5
-274 | Manual - acessar | Permissão para **acessar** menu Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
-275 | ManualGrupo - acessar | Permissão para **acessar** menu Cadastro de Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
-280 | Manual - criar | Permissão para **criar** Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1 
-281 | Manual - pesquisar | Permissão para **pesquisar** Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual |  1
-283 | ManualGrupo - criar | Permissão para **criar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
-284 | ManualGrupo - alterar | Permissão para **editar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
-285 | ManualGrupo - apagar | Permissão para **deletar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
-286 | Manual - alterar | Permissão para **editar** manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
-287 | Manual - apagar | Permissão para **deletar** manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
-288 | Legislacao - apagar | Permissão para **deletar** Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
+248 | CadEconomicoBeneficioFiscal - alterar | Permissão para editar o Cadastro de Benefício Fiscal. Aparecerá botão “Salvar | Administração > Cadastro de Benefício Fiscal | <span style="color:orange">3</span>
+249 | CadEconomicoBeneficioFiscal - cancelar | Permissão para bloquear benefício fiscal, pois os mesmos não são excluídos do sistema. Aparecerá o ícone de X(cancelar). | Administração > Cadastro de Benefício Fiscal | <span style="color:orange">3</span>
+254 | Pergunta - acessar | Permissão para acessar menu de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | <span style="color:green">1</span>
+255 | PerguntaGrupo - acessar | Permissão para **acessar** menu de grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | <span style="color:green">1</span>
+256 | PerguntaGrupo - criar | Permissão para **criar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | <span style="color:green">1</span>
+257 | PerguntaGrupo - pesquisar | Permissão para **pesquisar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | <span style="color:green">1</span>
+258 | PerguntaGrupo - alterar | Permissão para **editar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | <span style="color:green">1</span>
+259 | PerguntaGrupo - apagar | Permissão para **deletar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas |<span style="color:green">1</span>
+260 | Pergunta - criar | Permissão para **criar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas |<span style="color:green">1</span>
+261 | Pergunta - pesquisar |  Permissão para **pesquisar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | <span style="color:green">1</span>
+262 | Pergunta - alterar | Permissão para **editar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | <span style="color:green">1</span>
+263 | Pergunta - apagar | Permissão para **deletar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | <span style="color:green">1</span>
+266 | TabItemServico - acessar | Permissão para **acessar** menu Cadastro de Itens de Serviço (LC 116) | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | <span style="color:green">1</span>
+267 | Legislacao - acessar | Permissão para **acessar** menu Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | <span style="color:green">1</span>
+268 | Legislacao - criar | Permissão para **criar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | <span style="color:green">1</span> 
+269 | Legislacao - pesquisar | Permissão para **pesquisar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | <span style="color:green">1</span>
+270 | Legislacao - alterar | Permissão para **editar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | <span style="color:green">1</span>
+271 | TabItemServico - pesquisar | Permissão para **pesquisar** Cadastro de Itens de Serviço (LC 116) | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | <span style="color:green">1</span>
+272 | TabItemServico - alterar | Permissão para **editar** o Itens de Serviço (LC 116). Aparecerá ícone “Editar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | <span style="color:red">5</span> 
+273 | TabItemServico - criar | Permissão para **criar** de Itens de Serviço (LC 116). Aparecerá botão “Salvar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | <span style="color:red">5</span>
+274 | Manual - acessar | Permissão para **acessar** menu Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | <span style="color:green">1</span>
+275 | ManualGrupo - acessar | Permissão para **acessar** menu Cadastro de Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | <span style="color:green">1</span>
+280 | Manual - criar | Permissão para **criar** Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | <span style="color:green">1</span> 
+281 | Manual - pesquisar | Permissão para **pesquisar** Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual |  <span style="color:green">1</span>
+283 | ManualGrupo - criar | Permissão para **criar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | <span style="color:green">1</span>
+284 | ManualGrupo - alterar | Permissão para **editar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | <span style="color:green">1</span>
+285 | ManualGrupo - apagar | Permissão para **deletar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | <span style="color:greeb">1</span>
+286 | Manual - alterar | Permissão para **editar** manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | <span style="color:green">1</span>
+287 | Manual - apagar | Permissão para **deletar** manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | <span style="color:green">1</span>
+288 | Legislacao - apagar | Permissão para **deletar** Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | <span style="color:green">1</span>
 293 | TabItemServico - apagar | Permissão para **deletar** o Itens de Serviço (LC 116). Aparecerá botão “Apagar” |Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | <span style="color:red">5</span>
 294 | Relatórios Declaracao Mensal - acessar | Permissão para **acessar** menu Declaração Mensal de Serviço | Administração > Relatórios > Declaração Mensal de Serviço | <span style="color:green">1</span>
 295 | Menu Fiscalização | Permissão para **acessar** menu Fiscalização | Menu Fiscalização | <span style="color:green">1</span>
