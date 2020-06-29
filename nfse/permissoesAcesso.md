@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:34:37.400Z
+date: 2020-06-29T21:36:10.790Z
 tags: nfse, permissões, usuários
 ---
 
@@ -112,7 +112,7 @@ tags: nfse, permissões, usuários
 272 | TabItemServico - alterar | Permissão para **editar** o Itens de Serviço (LC 116). Aparecerá ícone “Editar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5 
 273 | TabItemServico - criar | Permissão para **criar** de Itens de Serviço (LC 116). Aparecerá botão “Salvar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5
 274 | Manual - acessar | Permissão para **acessar** menu Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
-275 | ManualGrupo - acessar | Permissão para **acessar** menu Cadastro de Grupo de Manual | 1
+275 | ManualGrupo - acessar | Permissão para **acessar** menu Cadastro de Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
 280 | Manual - criar | Permissão para **criar** Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1 
 281 | Manual - pesquisar | Permissão para **pesquisar** Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual |  1
 283 | ManualGrupo - criar | Permissão para **criar** Grupo de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Manual | 1
@@ -126,7 +126,6 @@ tags: nfse, permissões, usuários
 295 | Menu Fiscalização | Permissão para **acessar** menu Fiscalização | Menu Fiscalização | <span style="color:green">1</span>
 1319 | Mensagem - acessar | Permissão para **acessar** menu Mensagens da Empresa | Arquivo > Mensagens da Empresa | <span style="color:green">1</span>
 3043 | Mensagem - criar | Permissão para **criar** Mensagens da Empresa.Aparecera botão “Adicionar” | Arquivo > Mensagens da Empresa | <span style="color:green">1</span> 
-3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
 3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:green">3</span>
 3070 | Mensagem - alterar | Permissão para **editar** Mensagens da Empresa. Aparecera ícone “Editar” | Arquivo > Mensagens da Empresa |<span style="color:orange">3</span>
 3071 | Mensagem - apagar | Permissão para **deletar** Mensagens da Empresa. Aparecera ícone de exclusão. | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
