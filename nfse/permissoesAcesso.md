@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T18:15:09.363Z
+date: 2020-06-29T18:36:15.226Z
 tags: nfse, permissões, usuários
 ---
 
@@ -95,4 +95,22 @@ tags: nfse, permissões, usuários
 249 | CadEconomicoBeneficioFiscal - cancelar | Permissão para bloquear benefício fiscal, pois os mesmos não são excluídos do sistema. Aparecerá o ícone de X(cancelar). | Administração > Cadastro de Benefício Fiscal | 3
 254 | Pergunta - acessar | Permissão para acessar menu de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
 255 | PerguntaGrupo - acessar | Permissão para **acessar** menu de grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
-256 | PerguntaGrupo - criar | Permissão para criar grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
+256 | PerguntaGrupo - criar | Permissão para **criar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
+257 | PerguntaGrupo - pesquisar | Permissão para **pesquisar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
+258 | PerguntaGrupo - alterar | Permissão para **editar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
+259 | PerguntaGrupo - apagar | Permissão para **deletar** grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
+260 | Pergunta - criar | Permissão para **criar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
+261 | Pergunta - pesquisar |  Permissão para **pesquisar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
+262 | Pergunta - alterar | Permissão para **editar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
+263 | Pergunta - apagar | Permissão para **deletar** perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
+266 | TabItemServico - acessar | Permissão para **acessar** menu Cadastro de Itens de Serviço (LC 116) | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 1
+267 | Legislacao - acessar | Permissão para **acessar** menu Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
+268 | Legislacao - criar | Permissão para **criar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1 
+269 | Legislacao - pesquisar | Permissão para **pesquisar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
+270 | Legislacao - alterar | Permissão para **editar** Cadastro de Legislação | Administração > Auxiliares > Portal Econômico > Cadastro de Legislação | 1
+271 | TabItemServico - pesquisar | Permissão para pesquisar Cadastro de Itens de Serviço (LC 116) | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 1
+272 | TabItemServico - alterar | Permissão para editar o Itens de Serviço (LC 116). Aparecerá ícone “Editar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5 
+273 | TabItemServico - criar | Permissão para criar de Itens de Serviço (LC 116). Aparecerá botão “Salvar” | Administração > Auxiliares > Cadastro de Itens de Serviço (LC 116) | 5
+274 | Manual - acessar | Permissão para acessar menu Cadastro de Manual | Administração > Auxiliares > Portal Econômico > Cadastro de Manual | 1
+
+
