@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T18:13:07.966Z
+date: 2020-06-29T18:15:09.363Z
 tags: nfse, permissões, usuários
 ---
 
@@ -91,3 +91,8 @@ tags: nfse, permissões, usuários
 245 | CadEconomicoBeneficioFiscal - acessar | Permissão para **acessar** o menu de Cadastro de Benefício Fiscal | Administração > Cadastro de Benefício Fiscal | 1
 246 | CadEconomicoBeneficioFiscal - criar | Permissão para criar o menu de Cadastro de Benefício Fiscal. Aparecerá botão “Adicionar” | Administração > Cadastro de Benefício Fiscal | 3
 247 | CadEconomicoBeneficioFiscal - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+248 | CadEconomicoBeneficioFiscal - alterar | Permissão para editar o Cadastro de Benefício Fiscal. Aparecerá botão “Salvar | Administração > Cadastro de Benefício Fiscal | 3
+249 | CadEconomicoBeneficioFiscal - cancelar | Permissão para bloquear benefício fiscal, pois os mesmos não são excluídos do sistema. Aparecerá o ícone de X(cancelar). | Administração > Cadastro de Benefício Fiscal | 3
+254 | Pergunta - acessar | Permissão para acessar menu de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | 1
+255 | PerguntaGrupo - acessar | Permissão para **acessar** menu de grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
+256 | PerguntaGrupo - criar | Permissão para criar grupo de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Grupo de Perguntas e Respostas | 1
