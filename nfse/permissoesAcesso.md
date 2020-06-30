@@ -2,13 +2,13 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:40:16.493Z
+date: 2020-06-30T12:41:34.390Z
 tags: nfse, permissões, usuários
 ---
 
 # Permissões de usuários NFSE
- ID | Permissão | Descrição | Menu | Nível Critico
-:------| :------: | :------: | :------: | :------ | 
+ ID | Permissão | Descrição | Menu |Nível Critico
+:------| :------ | :------: | :------ | :------ | 
 94 | Agendamento - acessar | Permissão para **visualizar** tarefas agendadas, como encerramento automático | Administração > Cadastro de Agendamentos | <span style="color:green">1</span>
 96 | CadEconomico - acessar | Permissão para **visualizar** os cadastros das empresas | Arquivo > Configurações da Empresa | <span style="color:green">1</span>
 97 | CadEconomicoImposto - editar | Permissão para **editar** informações do cadastro de Impostos das empresas | Arquivo > Configurações da Empresa. “Aba Impostos” | <span style="color:orange">3</span>
@@ -43,7 +43,7 @@ tags: nfse, permissões, usuários
 128 | PortalEconomico - acessar | Permissão para **acessar** o menu Portal Econômico | Administração > Auxiliares > Portal Econômico | <span style="color:green">1</span>
 129 | TabAtividade - acessar | Permissão para **visualizar** o cadastro de atividades das empresas | Administração > Auxiliares > Cadastro de Atividade (CNAE) | <span style="color:green">1</span>
 130 | TabCargo - acessar | Permissão para **visualizar** o cadastro de cargos | Administração > Auxiliares > Cadastro de Cargos | <span style="color:green">1</span>
-131 | TabNaturezaJuridica - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO 
+131 | TabNaturezaJuridica - acessar | NÃO UTILIZADO | NÃO UTILIZADO |
 132 | TabTipoDeducao - acessar | Permissão para **visualizar** o cadastro de tipo de deduções para notas fiscais | Administração > Auxiliares > Cadastro de Tipo de Dedução | <span style="color:green">1</span>
 133 | Tomador - acessar | Permissão para **visualizar** o cadastro de tomadores de serviços das empresas | Nota Fiscal > Cadastro de Tomador de Serviço | <span style="color:green">1</span>
 134 | Tomador - alterar | Permissão para **editar** o cadastro de tomadores de serviços das empresas | Nota Fiscal > Cadastro de Tomador de Serviço | <span style="color:orange">3</span>
@@ -51,7 +51,7 @@ tags: nfse, permissões, usuários
 136 | Tomador - pesquisar | Permissão para **pesquisar** tomadores de serviços das empresas | Nota Fiscal > Cadastro de Tomador de Serviço | <span style="color:green">1</span>
 137 | RPS - acessar | Permissão para **visualizar** RPS enviados pelas empresas | RPS > Consulta RPS | <span style="color:green">1</span>
 138 | CadEconomico - vincular Subusuários | Permissão para **visualizar** menu de Autorização de Pessoa vinculada a empresa | Arquivo > Autorização de Pessoa | <span style="color:green">1</span>
-139 | CadEconomico - exportar dados | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+139 | CadEconomico - exportar dados | NÃO UTILIZADO | NÃO UTILIZADO |
 140 | Nota Fiscal - emitir | Permissão para **emitir** Nota Fiscal | Nota Fiscal > Emitir Nota Fiscal | <span style="color:red">5</span>
 141 | Nota Fiscal - consulta emitidas | Permissão para **consultar** Notas emitidas pelas empresas | Nota Fiscal > Consulta Nota Fiscal > Emitida | <span style="color:green">1</span>
 142 | Nota Fiscal - consulta recebidas | Permissão para **consultar** Notas recebidas pelas empresas | Nota Fiscal > Consulta Nota Fiscal > Recebida | <span style="color:green">1</span>
