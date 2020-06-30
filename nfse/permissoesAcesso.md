@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:27:52.651Z
+date: 2020-06-30T12:36:03.939Z
 tags: nfse, permissões, usuários
 ---
 
@@ -150,8 +150,18 @@ tags: nfse, permissões, usuários
 6440 | PlanoContasLancamento - criar | Permissão para **criar** Lançamento de Plano de Contas da Empresa.Aparecerábotão “Adicionar” | *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Lançamento de Plano de Contas | <span style="color:red">5</span>
 6441 | PlanoContas - criar | Permissão para **criar** Plano de Contas da Empresa. Aparecerá botão “Adicionar” | *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Plano de Contas | <span style="color:red">5</span>
 6447 | PlanoContas - alterar | Permissão para **editar** Empresa. Aparecerá ícone “Editar” | Nota Fiscal > Escrituração > Plano de Contas | <span style="color:red">5</span>
-
-
-
+6448 | PlanoContasLancamento - alterar | Permissão para **editar** Lançamento de Plano de Contas da Empresa. Aparecerá ícone “Editar” | *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Lançamento de Plano de Contas | <span style="color:red">5</span> 
+6449 | Nota Fiscal Recebida - ok | Permissão para aparecer botão OK, quando visualizar nota recebida/escriturada. | Nota Fiscal > Escrituração > Documentos Fiscais Recebidos  | <span style="color:green">1</span>
+6450 | PlanoContasLancamento - apagar | Permissão para deletar Lançamento de Plano de Contas da Empresa. Aparecerá ícone de exclusão. | *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Lançamento de Plano de Contas | <span style="color:red">5</span> 
+6451 | PlanoContas - apagar | Permissão para **deletar** Plano de Contas da Empresa. Aparecerá ícone de exclusão. |  *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Plano de Contas | <span style="color:red">5</span> 
+6452 | Nota Fiscal Emitida - ok | Permissão para aparecer botão OK, quando visualizar nota emitida/escriturada. | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:green">1</span>
+6453 | Sincronismo - acessar | Permissão para **acessar** menu para Forçar Sincronismo. | Administração > Auxiliares > Perfil Prefeitura > Forçar Sincronismo | <span style="color:green">1</span>
+6454 | Ambiente - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+6455 | Termo - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+6463 | PessoaAutorizacao - criar | Permissão para **salvar** a autorização de uma pessoa. Aparecerá o botão “Salvar” | Arquivo > Autorização de Pessoa | <span style="color:orange">3</span>
+6464 | TabelaSimplesNacional - criar | Permissão para **criar** faixa de valores do Simples Nacional.Aparecerá botão “Adicionar | Administração > Auxiliares > Cadastro de Faixa de Valores do Simples Nacional | <span style="color:orange">3</span>
+6497 | Sistema - alterar | NÃO UTILIZADO | NÃO UTILIZADO |NÃO UTILIZADO
+6498 | Sistema - apagar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+     |                  |               | Total:        | 154 
 
 
