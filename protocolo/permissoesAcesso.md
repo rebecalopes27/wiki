@@ -2,7 +2,7 @@
 title: Permissões de usuários Protocolo
 description: Descrição das permissões de usuários do sistema Protocolo
 published: true
-date: 2020-06-30T13:57:29.098Z
+date: 2020-06-30T14:14:15.409Z
 tags: protocolo, permissões, usuários
 ---
 
@@ -15,18 +15,18 @@ tags: protocolo, permissões, usuários
 2 | Processa Relatório | ProcessoRelatorioControllerinit() | <span style="color:green">1</span>
 3 | Copia processos | SessionControllerisCopiaProcessos()| <span style="color:green">1</span>
 4 | Recepciona guia de remessa | SessionControllerisRecepcionaGuiaDeRemessa() | <span style="color:red">5</span>
-5  |  Cadastra Processo Interno  |  SessionController isCadastraProcessoInterno()  |  3
-6  |  Cadastra Processo Externo  |  SessionController isCadastraProcessoExterno()  |  3
-7  |  Lista todos os protocolos  |  SessionController montaPermissoesDoUsuario()  |  1
-8  |  Exclusão de Guia Remessa criada por outro usuário  |  GuiaRemessaService autorizaExcusaoGuiaRemessa()  |  5
-9  |  Excluir Andamento de Processo  |  ProcessoAndamentoService removerAndamentoManual()  |  5
-10  |  Pesquisa Avançada de Processo (Retorna apenas os processos onde o usuário possui acesso, desconsiderando o usuário do tipo suporte e administrador)  |  ProcessoService pesquisaAvancadaProcessoSomente- OndeUsuarioPossuiAcesso()  |  3
-11  |  Permite editar andamento  |  ProcessoService permitiEditarAndamento()  |  3
-12  |  Deletar Anexo do Processo  |  ProcessoService permitiDeletarAnexo()  |  5
-13  |  Permite visualizar Processo  |  ProcessoService permiteVisualizarProcesso()  |  1
-14  |  Verifica andamento sigiloso  |  ProcessoService verificarAndamentoSigiloso()  |  3
-15  |  Permite estornar guia recebida  |  GuiaRemessaController estornarRecepcao()  |  3
-16  |  Habilita cadastro de Processos  |  ProcessoController habilitaCadastroDeProcessos()  |  1
+5  |  Cadastra Processo Interno  |  SessionController isCadastraProcessoInterno()  |  <span style="color:orange">3</span>
+6  |  Cadastra Processo Externo  |  SessionController isCadastraProcessoExterno()  |  <span style="color:orange">3</span>
+7  |  Lista todos os protocolos  |  SessionController montaPermissoesDoUsuario()  |  <span style="color:green">1</span>
+8  |  Exclusão de Guia Remessa criada por outro usuário  |  GuiaRemessaService autorizaExcusaoGuiaRemessa()  |  <span style="color:red">5</span>
+9  |  Excluir Andamento de Processo  |  ProcessoAndamentoService removerAndamentoManual()  |  <span style="color:red">5</span>
+10  |  Pesquisa Avançada de Processo (Retorna apenas os processos onde o usuário possui acesso, desconsiderando o usuário do tipo suporte e administrador)  |  ProcessoService pesquisaAvancadaProcessoSomente- OndeUsuarioPossuiAcesso()  |  <span style="color:orange">3</span>
+11  |  Permite editar andamento  |  ProcessoService permitiEditarAndamento()  |  <span style="color:orange">3</span>
+12  |  Deletar Anexo do Processo  |  ProcessoService permitiDeletarAnexo()  |  <span style="color:red">5</span>
+13  |  Permite visualizar Processo  |  ProcessoService permiteVisualizarProcesso()  |  <span style="color:green">1</span>
+14  |  Verifica andamento sigiloso  |  ProcessoService verificarAndamentoSigiloso()  |  <span style="color:orange">3</span>
+15  |  Permite estornar guia recebida  |  GuiaRemessaController estornarRecepcao()  |  <span style="color:orange">3</span>
+16  |  Habilita cadastro de Processos  |  ProcessoController habilitaCadastroDeProcessos()  |  <span style="color:green">1</span>
 
 <br/>
 
@@ -36,7 +36,7 @@ tags: protocolo, permissões, usuários
 ID | Tela | Descrição | Nível Critico
 :------| :------: | :------: | :------: | :------: |
 35  |  Agendamentos  |  Agendamento de Sincronismo – Não está funcionando  |  -
-40  |  AndamentoPeloProcesso  |  Ao entrar no Processo é possível dar um novo andamento  |  <span style="color:yellow">1</span>
+40  |  AndamentoPeloProcesso  |  Ao entrar no Processo é possível dar um novo andamento  |  <span style="color:yellow">3</span>
 23  |  Assunto  |  Cadastro/Alteração/Exclusão/Visualização de Assuntos do Processo  |  <span style="color:green">1</span>
 6  |  Auditoria  |  Auditoria de ações (inclusão, alteração, exclusão) realizadas no sistema  |  <span style="color:green">1</span>
 9  |  Bairro  |  Cadastro/Alteração/Exclusão/Visualização de Bairro  |  <span style="color:green">1</span>
@@ -48,7 +48,7 @@ ID | Tela | Descrição | Nível Critico
 22  |  Documento Requerido  |  Cadastro/Alteração/Exclusão/Visualização de documentos requeridos no processo  |  <span style="color:green">1</span>
 20  |  documentoTipo  |  Cadastro/Alteração/Exclusão/Visualização de Tipos de Documentos  |  <span style="color:green">1</span>
 2  |  Estado  |  Cadastro/Alteração/Exclusão/Visualização de Estado  |  <span style="color:green">1</span>
-18  |  FaixaSequencial  |  Cadastro anualmente (Processos abertos durante o ano)  |  <span style="color:green">1</span>
+18  |  FaixaSequencial  |  Cadastro anualmente (Processos abertos durante o ano)  |  <span style="color:green">3</span>
 39  |  GerenciarPessoas  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  <span style="color:yellow">1</span>
 26  |  guiaRemessa  |  Incluir no cadastro de processo uma guia de Remessa  |  <span style="color:green">1</span>
 17  |  Imposto  |  Cadastro/Alteração/Exclusão/Visualização de taxas existentes no SAT  |  <span style="color:green">1</span>
