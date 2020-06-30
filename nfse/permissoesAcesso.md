@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:37:47.826Z
+date: 2020-06-30T12:38:25.781Z
 tags: nfse, permissões, usuários
 ---
 
@@ -14,7 +14,7 @@ tags: nfse, permissões, usuários
 97 | CadEconomicoImposto - editar | Permissão para **editar** informações do cadastro de Impostos das empresas | Arquivo > Configurações da Empresa. “Aba Impostos” | <span style="color:orange">3</span>
 98 | CadEconomicoImposto - apagar | Permissão para **deletar** informações do cadastro de Impostos das empresas | Arquivo > Configurações da Empresa.“Aba Impostos” | <span style="color:orange">3</span>
 99 | CadEconomicoImposto - criar | Permissão para **criar** informações no cadastro de Impostos das empresas| Arquivo > Configurações da Empresa.“Aba Impostos” | <span style="color:orange">3</span>
-100 | Cidade - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+100 | Cidade - acessar | NÃO UTILIZADO | NÃO UTILIZADO | 
 101 | Cidade - editar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
 102 | Cidade - apagar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
 103 | Cidade - criar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
