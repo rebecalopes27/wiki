@@ -2,7 +2,7 @@
 title: Deploy Sistema Protocolo e Nota Fiscal
 description: 
 published: true
-date: 2020-05-13T00:16:18.035Z
+date: 2020-06-30T00:58:26.604Z
 tags: protocolo, deploy, nfse
 ---
 
