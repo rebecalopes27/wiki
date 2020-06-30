@@ -2,7 +2,7 @@
 title: Permissões de usuários Protocolo
 description: Descrição das permissões de usuários do sistema Protocolo
 published: true
-date: 2020-06-30T14:16:46.829Z
+date: 2020-06-30T14:19:28.655Z
 tags: protocolo, permissões, usuários
 ---
 
