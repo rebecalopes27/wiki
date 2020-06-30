@@ -2,7 +2,7 @@
 title: Permissões de usuários Protocolo
 description: Descrição das permissões de usuários do sistema Protocolo
 published: true
-date: 2020-06-30T14:33:50.799Z
+date: 2020-06-30T14:34:51.960Z
 tags: protocolo, permissões, usuários
 ---
 
@@ -31,7 +31,7 @@ tags: protocolo, permissões, usuários
 
 <br/>
 
-### <center> Permissões de Telas </center> 
+#### <center> Permissões de Telas </center> 
 <center>*Se o usuário tiver perfil Administrador, todas as telas são liberadas</center>
 
 ID | Tela | Descrição | Nível Critico
