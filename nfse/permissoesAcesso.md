@@ -2,12 +2,12 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:50:31.399Z
+date: 2020-06-30T12:50:53.715Z
 tags: nfse, permissões, usuários
 ---
 
 # Permissões de usuários NFSE
- ID | Permissão | Descrição | Menu | Nív.Critico
+ ID | Permissão | Descrição | Menu | Critico
 :------| :------ | :------: | :------ | :------ | 
 94 | Agendamento - acessar | Permissão para **visualizar** tarefas agendadas, como encerramento automático | Administração > Cadastro de Agendamentos | <span style="color:green">1</span>
 96 | CadEconomico - acessar | Permissão para **visualizar** os cadastros das empresas | Arquivo > Configurações da Empresa | <span style="color:green">1</span>
