@@ -2,12 +2,13 @@
 title: Permissões de usuários Protocolo
 description: Descrição das permissões de usuários do sistema Protocolo
 published: true
-date: 2020-06-30T14:14:15.409Z
+date: 2020-06-30T14:16:46.829Z
 tags: protocolo, permissões, usuários
 ---
 
 # Permissões de Usuários no PROTOCOLO
-### <center>Permissões para Nível de Suporte (32) / Administrador (16)</center> 
+
+#### <center>Permissões para Nível de Suporte (32) / Administrador (16)</center> 
 
 * | Operação | Classe e Método | Nível Critico
 :------|:------|:------:|:------:| :------:
@@ -49,7 +50,7 @@ ID | Tela | Descrição | Nível Critico
 20  |  documentoTipo  |  Cadastro/Alteração/Exclusão/Visualização de Tipos de Documentos  |  <span style="color:green">1</span>
 2  |  Estado  |  Cadastro/Alteração/Exclusão/Visualização de Estado  |  <span style="color:green">1</span>
 18  |  FaixaSequencial  |  Cadastro anualmente (Processos abertos durante o ano)  |  <span style="color:green">3</span>
-39  |  GerenciarPessoas  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  <span style="color:yellow">1</span>
+39  |  GerenciarPessoas  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  <span style="color:yellow">3</span>
 26  |  guiaRemessa  |  Incluir no cadastro de processo uma guia de Remessa  |  <span style="color:green">1</span>
 17  |  Imposto  |  Cadastro/Alteração/Exclusão/Visualização de taxas existentes no SAT  |  <span style="color:green">1</span>
 16  |  local  |  Cadastro/Alteração/Exclusão/Visualização de local “Secretaria”  |  <span style="color:green">1</span>
