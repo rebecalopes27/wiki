@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-29T21:56:01.258Z
+date: 2020-06-30T12:27:52.651Z
 tags: nfse, permissões, usuários
 ---
 
@@ -134,7 +134,24 @@ tags: nfse, permissões, usuários
 3597 | Tomador - cancelar | Permissão para **bloquear** o tomador, pois os mesmos não são excluídos do sistema. Aparecerá o ícone X (Bloquear registro). |  Nota Fiscal > Cadastro de Tomador de Serviço | <span style="color:orange">3</span>
 3603 | Nota Fiscal Emitida - criar | Permissão para **criar**/escriturar nota fiscal emitida fora do Município. Aparecerá botão “Adicionar” | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:orange">3</span>
 3604 | Nota Fiscal Recebida - criar | Permissão para **criar**/escriturar nota fiscal recebida fora do Município. Aparecerá botão “Adicionar” | Nota Fiscal > Escrituração > Documentos Fiscais Recebidos |  <span style="color:orange">3</span>
-3605 | Nota Fiscal Emitida - alterar | Permissão para editar nota fiscal emitida fora do Município. Aparecerá ícone “Editar” | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:red">5</span>
-3606 | Nota Fiscal Emitida - cancelar | Permissão para cancelar nota fiscal emitida fora do Município. Aparecerá ícone X (Cancelar Nota). | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:red">5</span>
+3605 | Nota Fiscal Emitida - alterar | Permissão para **editar** nota fiscal emitida fora do Município. Aparecerá ícone “Editar” | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:red">5</span>
+3606 | Nota Fiscal Emitida - cancelar | Permissão para **cancelar** nota fiscal emitida fora do Município. Aparecerá ícone X (Cancelar Nota). | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:red">5</span>
+3607 | Nota Fiscal Recebida - alterar | Permissão para **editar** nota fiscal recebida fora do Município. Aparecerá ícone “Editar” | Nota Fiscal > Escrituração > Documentos Fiscais Recebidos | <span style="color:red">5</span>
+3608 | Nota Fiscal Recebida - cancelar | Permissão para **cancelar** nota fiscal recebida fora do Município. Aparecerá ícone X (Cancelar Nota). | Nota Fiscal > Escrituração > Documentos Fiscais Recebidos | <span style="color:red">5</span>
+3609 | Nota Fiscal Emitida - apagar | Permissão para **deletar** nota fiscal emitida fora do Município. Aparecerá ícone de exclusão. | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:red">5</span>
+3610 | RetificadoraAutorizacao - criar | Permissão para **criar** retificadora de movimento. Aparecerá botão “Adicionar”. | Encerramento > Encerramento Mensal(Ícone Editar) |  <span style="color:red">5</span>
+3612 | Nota Fiscal Recebida - visualizar | Permissão para **visualizar** nota fiscal recebida. Aparecerá ícone de visualização. | Nota Fiscal > Consultar Nota Fiscal > Recebida | <span style="color:green">1</span>
+3613 | Nota Fiscal Recebida - apagar | Permissão para **deletar** nota fiscal recebida. Aparecerá ícone de exclusão. | Nota Fiscal > Consultar Nota Fiscal > Recebida | <span style="color:red">5</span>
+3614 | CandidaturaTse - acessar | Permissão para **acessar** menu Notas Fiscais Candidatura TSE | Administração > Auxiliares > Perfil Prefeitura > Notas Fiscais Candidatura TSE | <span style="color:green">1</span>
+3615 | Nota Fiscal Emitida - visualizar | Permissão para **visualizar** nota fiscal emitida. Aparecerá ícone de visualização. | Nota Fiscal > Consultar Nota Fiscal > Emitida | <span style="color:green">1</span>
+3616 | Regularizacao - acessar | Permissão para **acessar** menu Regularização | Administração > Auxiliares > Perfil Prefeitura > Regularização | <span style="color:green">1</span>
+3620 | Compulsorio - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+3621 | Cidade - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+6440 | PlanoContasLancamento - criar | Permissão para **criar** Lançamento de Plano de Contas da Empresa.Aparecerábotão “Adicionar” | *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Lançamento de Plano de Contas | <span style="color:red">5</span>
+6441 | PlanoContas - criar | Permissão para **criar** Plano de Contas da Empresa. Aparecerá botão “Adicionar” | *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Plano de Contas | <span style="color:red">5</span>
+6447 | PlanoContas - alterar | Permissão para **editar** Empresa. Aparecerá ícone “Editar” | Nota Fiscal > Escrituração > Plano de Contas | <span style="color:red">5</span>
+
+
+
 
 
