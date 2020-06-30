@@ -2,7 +2,7 @@
 title: Permissões de usuários Protocolo
 description: Descrição das permissões de usuários do sistema Protocolo
 published: true
-date: 2020-06-30T14:19:28.655Z
+date: 2020-06-30T14:30:33.391Z
 tags: protocolo, permissões, usuários
 ---
 
@@ -37,7 +37,7 @@ tags: protocolo, permissões, usuários
 ID | Tela | Descrição | Nível Critico
 :------| :------: | :------: | :------: | :------: |
 35  |  Agendamentos  |  Agendamento de Sincronismo – Não está funcionando  |  -
-40  |  AndamentoPeloProcesso  |  Ao entrar no Processo é possível dar um novo andamento  |  <span style="color:yellow">3</span>
+40  |  AndamentoPeloProcesso  |  Ao entrar no Processo é possível dar um novo andamento  |  <span style="color:orange">3</span>
 23  |  Assunto  |  Cadastro/Alteração/Exclusão/Visualização de Assuntos do Processo  |  <span style="color:green">1</span>
 6  |  Auditoria  |  Auditoria de ações (inclusão, alteração, exclusão) realizadas no sistema  |  <span style="color:green">1</span>
 9  |  Bairro  |  Cadastro/Alteração/Exclusão/Visualização de Bairro  |  <span style="color:green">1</span>
@@ -49,8 +49,30 @@ ID | Tela | Descrição | Nível Critico
 22  |  Documento Requerido  |  Cadastro/Alteração/Exclusão/Visualização de documentos requeridos no processo  |  <span style="color:green">1</span>
 20  |  documentoTipo  |  Cadastro/Alteração/Exclusão/Visualização de Tipos de Documentos  |  <span style="color:green">1</span>
 2  |  Estado  |  Cadastro/Alteração/Exclusão/Visualização de Estado  |  <span style="color:green">1</span>
-18  |  FaixaSequencial  |  Cadastro anualmente (Processos abertos durante o ano)  |  <span style="color:green">3</span>
-39  |  GerenciarPessoas  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  <span style="color:yellow">3</span>
+18  |  FaixaSequencial  |  Cadastro anualmente (Processos abertos durante o ano)  |  <span style="color:green">1</span>
+39  |  GerenciarPessoas  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  <span style="color:orange">3</span>
 26  |  guiaRemessa  |  Incluir no cadastro de processo uma guia de Remessa  |  <span style="color:green">1</span>
 17  |  Imposto  |  Cadastro/Alteração/Exclusão/Visualização de taxas existentes no SAT  |  <span style="color:green">1</span>
 16  |  local  |  Cadastro/Alteração/Exclusão/Visualização de local “Secretaria”  |  <span style="color:green">1</span>
+24  |  LocalFisico  |  Cadastro/Alteração/Exclusão/Visualização local físico “Setor”  |  <span style="color:green">1</span>
+10  |  Logradouro  |  Cadastro/Alteração/Exclusão/Visualização de Logradouro  |  <span style="color:green">1</span>
+32  |  ModeloDocumento  |  Cadastro/Alteração/Exclusão/Visualização de Modelo de Documento  |  <span style="color:green">1</span>
+21  |  ModeloDocumentoTipo  |  Cadastro/Alteração/Exclusão/Visualização de Modelo de Tipo de Documento  |  <span style="color:green">1</span>
+14  |  Modo Administrador  |  Habilita o Modo de Administrador  |  <span style="color:red">5</span>
+13  |  Nacionalidade  |  Cadastro/Alteração/Exclusão/Visualização de Nacionalidade  |  <span style="color:green">1</span>
+37  |  NotificacaoCollor  |  Protocolo de Obras – Status do Processo muda de cor (Controle de Notificação)  |  <span style="color:green">1</span>
+37  |  NotificacaoCollor  |  Protocolo de Obras – Status do Processo muda de cor (Controle de Notificação)  |  <span style="color:green">1</span>
+12  |  País  |  Cadastro/Alteração/Exclusão/Visualização de País  |  <span style="color:green">1</span>
+34  |  Parametros  |  Alteração de parâmetros no sistema, Ex: Endereço do servidor SAT  |  <span style="color:red">5</span>
+3  |  Perfil  |  Cadastro/Alteração/Exclusão/Visualização de Perfil  |  <span style="color:orange">3</span>
+28  |  PermissaoAcessoProtocolo  |  Configurar Permissão de Acesso ao sistema  |  <span style="color:green">1</span>
+4  |  Permissões  |  Relatório de Permissões de Acesso  |  <span style="color:green">1</span>
+33  |  Pessoa  |  Cadastro/Alteração/Exclusão/Visualização de Pessoas que são requerentes ou parte interessada dos processos  |  <span style="color:orange">3</span>
+19  |  Procedimento  |  Relatório de Assuntos que possuem Procedimentos  |  <span style="color:green">1</span>
+15  |  Processo  |  Relatórios de Andamentos, Processo, Por Usuários etc.  |  <span style="color:green">1</span>
+27  |  ProcessoAndamento  |  Trâmite de Processo  |  <span style="color:red">5</span>
+25  |  Protocolo  |  Relatório de Protocolos ativos no sistema  |  <span style="color:green">1</span>
+8  |  Tipo Bairro  |  Cadastro/Alteração/Exclusão/Visualização de Tipo de Bairro  |  <span style="color:green">1</span>
+11  |  Tipo Logradouro  |  Cadastro/Alteração/Exclusão/Visualização de Tipo de Logradouro  |  <span style="color:green">1</span>
+36  |  TransferenciaProcessos  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  <span style="color:orange">3</span>
+5  |  Usuário  |  Cadastro/Alteração/Exclusão/Visualização de Usuário  |  <span style="color:green">1</span>
