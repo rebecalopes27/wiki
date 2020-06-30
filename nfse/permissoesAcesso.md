@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:44:15.529Z
+date: 2020-06-30T12:48:33.960Z
 tags: nfse, permissões, usuários
 ---
 
@@ -171,4 +171,8 @@ tags: nfse, permissões, usuários
 
 <span style="color:red">5</span> – Permissões com esse nível crítico de acesso merecem um <span style="color:red">cuidado redobrado</span>, pois tais dados são sensíveis as empresas, e se manipulados de forma indevida poderão afetar a regra de negócio e/ou danificar a integridade dos dados. Portanto, é necessário ter um cuidado muito maior com tais permissões.
 
+## Menus acessados somente por SUPORTE
+
+* Administração > Configuração de Sistema
+* Sistema
 
