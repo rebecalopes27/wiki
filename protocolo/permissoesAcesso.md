@@ -2,11 +2,12 @@
 title: Permissões de usuários Protocolo
 description: Descrição das permissões de usuários do sistema Protocolo
 published: true
-date: 2020-06-30T13:45:40.320Z
+date: 2020-06-30T13:57:29.098Z
 tags: protocolo, permissões, usuários
 ---
 
 # Permissões de Usuários no PROTOCOLO
+### <center>Permissões para Nível de Suporte (32) / Administrador (16)</center> 
 
 * | Operação | Classe e Método | Nível Critico
 :------|:------|:------:|:------:| :------:
@@ -30,23 +31,25 @@ tags: protocolo, permissões, usuários
 <br/>
 
 ### <center> Permissões de Telas </center> 
+<center>*Se o usuário tiver perfil Administrador, todas as telas são liberadas</center>
+
 ID | Tela | Descrição | Nível Critico
 :------| :------: | :------: | :------: | :------: |
 35  |  Agendamentos  |  Agendamento de Sincronismo – Não está funcionando  |  -
-40  |  AndamentoPeloProcesso  |  Ao entrar no Processo é possível dar um novo andamento  |  3
-23  |  Assunto  |  Cadastro/Alteração/Exclusão/Visualização de Assuntos do Processo  |  1
-6  |  Auditoria  |  Auditoria de ações (inclusão, alteração, exclusão) realizadas no sistema  |  1
-9  |  Bairro  |  Cadastro/Alteração/Exclusão/Visualização de Bairro  |  1
-1  |  Cidade  |  Cadastro/Alteração/Exclusão/Visualização de Cidade  |  1
-7  |  Cliente  |  Dados do Cliente que está acessando (Ex: Três Lagoas)  |  1
-30  |  ConsultaGuiaRemessaEnviada  |  Consulta de guias de Remessas Enviadas  |  1
-31  |  ConsultaGuiaRemessaRecebida  |  Consulta de guias Recebidas  |  1
-29  |  ConsultaProcessos  |  Consulta de Processos (Interno e Externo)  |  1
-22  |  Documento Requerido  |  Cadastro/Alteração/Exclusão/Visualização de documentos requeridos no processo  |  1
-20  |  documentoTipo  |  Cadastro/Alteração/Exclusão/Visualização de Tipos de Documentos  |  1
-2  |  Estado  |  Cadastro/Alteração/Exclusão/Visualização de Estado  |  1
-18  |  FaixaSequencial  |  Cadastro anualmente (Processos abertos durante o ano)  |  1
-39  |  GerenciarPessoas  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  3
-26  |  guiaRemessa  |  Incluir no cadastro de processo uma guia de Remessa  |  1
-17  |  Imposto  |  Cadastro/Alteração/Exclusão/Visualização de taxas existentes no SAT  |  1
-16  |  local  |  Cadastro/Alteração/Exclusão/Visualização de local “Secretaria”  |  1
+40  |  AndamentoPeloProcesso  |  Ao entrar no Processo é possível dar um novo andamento  |  <span style="color:yellow">1</span>
+23  |  Assunto  |  Cadastro/Alteração/Exclusão/Visualização de Assuntos do Processo  |  <span style="color:green">1</span>
+6  |  Auditoria  |  Auditoria de ações (inclusão, alteração, exclusão) realizadas no sistema  |  <span style="color:green">1</span>
+9  |  Bairro  |  Cadastro/Alteração/Exclusão/Visualização de Bairro  |  <span style="color:green">1</span>
+1  |  Cidade  |  Cadastro/Alteração/Exclusão/Visualização de Cidade  |  <span style="color:green">1</span>
+7  |  Cliente  |  Dados do Cliente que está acessando (Ex: Três Lagoas)  |  <span style="color:green">1</span>
+30  |  ConsultaGuiaRemessaEnviada  |  Consulta de guias de Remessas Enviadas  |  <span style="color:green">1</span>
+31  |  ConsultaGuiaRemessaRecebida  |  Consulta de guias Recebidas  |  <span style="color:green">1</span>
+29  |  ConsultaProcessos  |  Consulta de Processos (Interno e Externo)  |  <span style="color:green">1</span>
+22  |  Documento Requerido  |  Cadastro/Alteração/Exclusão/Visualização de documentos requeridos no processo  |  <span style="color:green">1</span>
+20  |  documentoTipo  |  Cadastro/Alteração/Exclusão/Visualização de Tipos de Documentos  |  <span style="color:green">1</span>
+2  |  Estado  |  Cadastro/Alteração/Exclusão/Visualização de Estado  |  <span style="color:green">1</span>
+18  |  FaixaSequencial  |  Cadastro anualmente (Processos abertos durante o ano)  |  <span style="color:green">1</span>
+39  |  GerenciarPessoas  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  <span style="color:yellow">1</span>
+26  |  guiaRemessa  |  Incluir no cadastro de processo uma guia de Remessa  |  <span style="color:green">1</span>
+17  |  Imposto  |  Cadastro/Alteração/Exclusão/Visualização de taxas existentes no SAT  |  <span style="color:green">1</span>
+16  |  local  |  Cadastro/Alteração/Exclusão/Visualização de local “Secretaria”  |  <span style="color:green">1</span>
