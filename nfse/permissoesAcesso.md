@@ -2,13 +2,13 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:36:37.470Z
+date: 2020-06-30T12:37:47.826Z
 tags: nfse, permissões, usuários
 ---
 
 # Permissões de usuários NFSE
  ID | Permissão | Descrição | Menu | Nível Critico
-:------| :------: | :------: | :------: | :------: | 
+:------| :------: | :------: | :------: | :------ | 
 94 | Agendamento - acessar | Permissão para **visualizar** tarefas agendadas, como encerramento automático | Administração > Cadastro de Agendamentos | <span style="color:green">1</span>
 96 | CadEconomico - acessar | Permissão para **visualizar** os cadastros das empresas | Arquivo > Configurações da Empresa | <span style="color:green">1</span>
 97 | CadEconomicoImposto - editar | Permissão para **editar** informações do cadastro de Impostos das empresas | Arquivo > Configurações da Empresa. “Aba Impostos” | <span style="color:orange">3</span>
@@ -162,6 +162,6 @@ tags: nfse, permissões, usuários
 6464 | TabelaSimplesNacional - criar | Permissão para **criar** faixa de valores do Simples Nacional.Aparecerá botão “Adicionar | Administração > Auxiliares > Cadastro de Faixa de Valores do Simples Nacional | <span style="color:orange">3</span>
 6497 | Sistema - alterar | NÃO UTILIZADO | NÃO UTILIZADO |NÃO UTILIZADO
 6498 | Sistema - apagar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-                                           Total:         154 
+                                           
 
 
