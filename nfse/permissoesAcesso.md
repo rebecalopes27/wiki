@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:38:25.781Z
+date: 2020-06-30T12:40:16.493Z
 tags: nfse, permissões, usuários
 ---
 
@@ -15,18 +15,18 @@ tags: nfse, permissões, usuários
 98 | CadEconomicoImposto - apagar | Permissão para **deletar** informações do cadastro de Impostos das empresas | Arquivo > Configurações da Empresa.“Aba Impostos” | <span style="color:orange">3</span>
 99 | CadEconomicoImposto - criar | Permissão para **criar** informações no cadastro de Impostos das empresas| Arquivo > Configurações da Empresa.“Aba Impostos” | <span style="color:orange">3</span>
 100 | Cidade - acessar | NÃO UTILIZADO | NÃO UTILIZADO | 
-101 | Cidade - editar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-102 | Cidade - apagar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-103 | Cidade - criar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-104 | Cidade - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-105 | Estado - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-106 | Estado - editar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-107 | Estado - apagar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-108 | Estado - criar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-109 | Estado - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+101 | Cidade - editar | NÃO UTILIZADO | NÃO UTILIZADO | 
+102 | Cidade - apagar | NÃO UTILIZADO | NÃO UTILIZADO | 
+103 | Cidade - criar | NÃO UTILIZADO | NÃO UTILIZADO | 
+104 | Cidade - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | 
+105 | Estado - acessar | NÃO UTILIZADO | NÃO UTILIZADO | 
+106 | Estado - editar | NÃO UTILIZADO | NÃO UTILIZADO | 
+107 | Estado - apagar | NÃO UTILIZADO | NÃO UTILIZADO | 
+108 | Estado - criar | NÃO UTILIZADO | NÃO UTILIZADO | 
+109 | Estado - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | 
 110 | Menu - Administração | Permissão para visualizar o menu Administração | Menu Administração | <span style="color:green">1</span>
-111 | MovimentoMensal - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-112 | NotaFiscalServico - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+111 | MovimentoMensal - acessar | NÃO UTILIZADO | NÃO UTILIZADO | 
+112 | NotaFiscalServico - acessar | NÃO UTILIZADO | NÃO UTILIZADO | 
 113 | NotaFiscalServico - editar | Permissão para **editar** nota fiscal | Nota Fiscal > Emitir Nota Fiscal | <span style="color:red">5</span>
 114 | NotaFiscalServico - criar | Permissão para **criar** nota fiscal | Nota Fiscal > Emitir Nota Fiscal | <span style="color:red">5</span>
 117 | ParametrosSistema - acessar | Permissão para **visualizar** configurações de parâmetros do sistema, como data de encerramento automático | Administração > Configurações do Sistema | <span style="color:green">1</span>
@@ -61,9 +61,9 @@ tags: nfse, permissões, usuários
 146 | Segurança - Auditoria desta Empresa | Permissão para **acessar** o menu de auditoria da empresa selecionada | Segurança > Auditoria | <span style="color:green">1</span>
 147 | MovimentoMensal - cancelar | Permissão para **cancelar** Movimento Mensal (botão de cancelar movimento será exibido) | Encerramento > Consultar Encerramento | <span style="color:red">5</span>
 148 | Tomador - apagar | Permissão para **deletar** tomador do sistema. Aparecerá o ícone para exclusão | Nota Fiscal > Cadastro de Tomador de Serviço | <span style="color:red">5</span>
-173 | RPS - download aplicativo | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+173 | RPS - download aplicativo | NÃO UTILIZADO | NÃO UTILIZADO | 
 174 | Pessoa - criar  | Permissão para **cadastrar** pessoa no sistema. Aparecerá o botão de “Adicionar” | Administração > Cadastro de Pessoa | <span style="color:red">5</span>
-175 | Pessoa - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+175 | Pessoa - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | 
 176 | Pessoa - alterar | Permissão para **alterar** informações de pessoas cadastradas no sistema. (CPF/CNPJ, Nome, E-mail). Aparecerá o ícone de editar. | Administração > Cadastro de Pessoa | <span style="color:red">5</span>
 177 | Pessoa - apagar | Permissão para **deletar** pessoas do sistema. Aparecerá o ícone de exclusão. | Administração > Cadastro de Pessoa | <span style="color:red">5</span>
 183 | Pessoa - adicionar perfil |  Permissão para **adicionar** perfil a uma pessoa cadastrada no sistema. | Administração > Cadastro de Pessoa.Botão “Adicionar”. Model “Perfil da Pessoa” | <span style="color:red">5</span>
@@ -83,14 +83,14 @@ tags: nfse, permissões, usuários
 232 | tabTipoDeducao - alterar | Permissão para **editar** tipos de dedução. Aparecerá ícone de “Editar” | Administração > Auxiliares > Cadastro de Tipo de Dedução | <span style="color:orange">3</span>
 233 | tabTipoDeducao - apagar | Permissão para **deletar** tipos de dedução. Aparecerá ícone de exclusão. | Administração > Auxiliares > Cadastro de Tipo de Dedução | <span style="color:orange">3</span>
 236 | TabAtividade - criar | Permissão para **criar** atividades da empresa. Não cria atividades, pois as mesmas são cadastradas no SAT sincronizadas no NF. | Administração > Auxiliares > Cadastro de Atividade (CNAE) | <span style="color:red">5</span>
-237 | TabAtividade - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+237 | TabAtividade - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO |
 240 | TabAtividade - alterar | Permissão para **editar** atividades da empresa. Aparecerá botão “Editar” | Administração > Auxiliares > Cadastro de Atividade (CNAE) | <span style="color:red">5</span>
 241 | Agendamento - apagar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de exclusão. | Administração > Cadastro de Agendamentos | <span style="color:red">5</span>
 242 | Agendamento - apagar | Permissão para **editar** tarefas agendadas no sistema. Aparecerá ícone de exclusão. | Administração > Cadastro de Agendamento | <span style="color:red">5</span>
 244 | Relatórios Gerenciais - acessar | Permissão para **acessar** relatórios gerenciais. | Administração > Relatórios > Gerenciais | <span style="color:green">1</span>
 245 | CadEconomicoBeneficioFiscal - acessar | Permissão para **acessar** o menu de Cadastro de Benefício Fiscal | Administração > Cadastro de Benefício Fiscal | <span style="color:green">1</span>
 246 | CadEconomicoBeneficioFiscal - criar | Permissão para criar o menu de Cadastro de Benefício Fiscal. Aparecerá botão “Adicionar” | Administração > Cadastro de Benefício Fiscal | <span style="color:orange">3</span>
-247 | CadEconomicoBeneficioFiscal - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+247 | CadEconomicoBeneficioFiscal - pesquisar | NÃO UTILIZADO | NÃO UTILIZADO | 
 248 | CadEconomicoBeneficioFiscal - alterar | Permissão para editar o Cadastro de Benefício Fiscal. Aparecerá botão “Salvar | Administração > Cadastro de Benefício Fiscal | <span style="color:orange">3</span>
 249 | CadEconomicoBeneficioFiscal - cancelar | Permissão para bloquear benefício fiscal, pois os mesmos não são excluídos do sistema. Aparecerá o ícone de X(cancelar). | Administração > Cadastro de Benefício Fiscal | <span style="color:orange">3</span>
 254 | Pergunta - acessar | Permissão para acessar menu de perguntas e respostas no Portal Econômico | Administração > Auxiliares > Portal Econômico > Cadastro de Perguntas e Respostas | <span style="color:green">1</span>
@@ -129,8 +129,8 @@ tags: nfse, permissões, usuários
 3044 | Mensagem - pesquisar | Permissão para **pesquisar** Mensagens da Empresa. Aparecera botão “Pesquisar” | Arquivo > Mensagens da Empresa | <span style="color:green">3</span>
 3070 | Mensagem - alterar | Permissão para **editar** Mensagens da Empresa. Aparecera ícone “Editar” | Arquivo > Mensagens da Empresa |<span style="color:orange">3</span>
 3071 | Mensagem - apagar | Permissão para **deletar** Mensagens da Empresa. Aparecera ícone de exclusão. | Arquivo > Mensagens da Empresa | <span style="color:orange">3</span>
-3366 | Perfil - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-3383 | Estado - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+3366 | Perfil - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | 
+3383 | Estado - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | 
 3597 | Tomador - cancelar | Permissão para **bloquear** o tomador, pois os mesmos não são excluídos do sistema. Aparecerá o ícone X (Bloquear registro). |  Nota Fiscal > Cadastro de Tomador de Serviço | <span style="color:orange">3</span>
 3603 | Nota Fiscal Emitida - criar | Permissão para **criar**/escriturar nota fiscal emitida fora do Município. Aparecerá botão “Adicionar” | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:orange">3</span>
 3604 | Nota Fiscal Recebida - criar | Permissão para **criar**/escriturar nota fiscal recebida fora do Município. Aparecerá botão “Adicionar” | Nota Fiscal > Escrituração > Documentos Fiscais Recebidos |  <span style="color:orange">3</span>
@@ -145,8 +145,8 @@ tags: nfse, permissões, usuários
 3614 | CandidaturaTse - acessar | Permissão para **acessar** menu Notas Fiscais Candidatura TSE | Administração > Auxiliares > Perfil Prefeitura > Notas Fiscais Candidatura TSE | <span style="color:green">1</span>
 3615 | Nota Fiscal Emitida - visualizar | Permissão para **visualizar** nota fiscal emitida. Aparecerá ícone de visualização. | Nota Fiscal > Consultar Nota Fiscal > Emitida | <span style="color:green">1</span>
 3616 | Regularizacao - acessar | Permissão para **acessar** menu Regularização | Administração > Auxiliares > Perfil Prefeitura > Regularização | <span style="color:green">1</span>
-3620 | Compulsorio - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-3621 | Cidade - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+3620 | Compulsorio - acessar | NÃO UTILIZADO | NÃO UTILIZADO | 
+3621 | Cidade - cancelar | NÃO UTILIZADO | NÃO UTILIZADO | 
 6440 | PlanoContasLancamento - criar | Permissão para **criar** Lançamento de Plano de Contas da Empresa.Aparecerábotão “Adicionar” | *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Lançamento de Plano de Contas | <span style="color:red">5</span>
 6441 | PlanoContas - criar | Permissão para **criar** Plano de Contas da Empresa. Aparecerá botão “Adicionar” | *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Plano de Contas | <span style="color:red">5</span>
 6447 | PlanoContas - alterar | Permissão para **editar** Empresa. Aparecerá ícone “Editar” | Nota Fiscal > Escrituração > Plano de Contas | <span style="color:red">5</span>
@@ -156,12 +156,12 @@ tags: nfse, permissões, usuários
 6451 | PlanoContas - apagar | Permissão para **deletar** Plano de Contas da Empresa. Aparecerá ícone de exclusão. |  *Se autorizado Plano de Contas no SAT* Nota Fiscal > Escrituração > Plano de Contas | <span style="color:red">5</span> 
 6452 | Nota Fiscal Emitida - ok | Permissão para aparecer botão OK, quando visualizar nota emitida/escriturada. | Nota Fiscal > Escrituração > Documentos Fiscais Emitidos | <span style="color:green">1</span>
 6453 | Sincronismo - acessar | Permissão para **acessar** menu para Forçar Sincronismo. | Administração > Auxiliares > Perfil Prefeitura > Forçar Sincronismo | <span style="color:green">1</span>
-6454 | Ambiente - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-6455 | Termo - acessar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+6454 | Ambiente - acessar | NÃO UTILIZADO | NÃO UTILIZADO | 
+6455 | Termo - acessar | NÃO UTILIZADO | NÃO UTILIZADO | 
 6463 | PessoaAutorizacao - criar | Permissão para **salvar** a autorização de uma pessoa. Aparecerá o botão “Salvar” | Arquivo > Autorização de Pessoa | <span style="color:orange">3</span>
 6464 | TabelaSimplesNacional - criar | Permissão para **criar** faixa de valores do Simples Nacional.Aparecerá botão “Adicionar | Administração > Auxiliares > Cadastro de Faixa de Valores do Simples Nacional | <span style="color:orange">3</span>
-6497 | Sistema - alterar | NÃO UTILIZADO | NÃO UTILIZADO |NÃO UTILIZADO
-6498 | Sistema - apagar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
+6497 | Sistema - alterar | NÃO UTILIZADO | NÃO UTILIZADO |
+6498 | Sistema - apagar | NÃO UTILIZADO | NÃO UTILIZADO |
                                            
 
 
