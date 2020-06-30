@@ -2,7 +2,7 @@
 title: Permissões de usuários Protocolo
 description: Descrição das permissões de usuários do sistema Protocolo
 published: true
-date: 2020-06-30T14:30:33.391Z
+date: 2020-06-30T14:33:50.799Z
 tags: protocolo, permissões, usuários
 ---
 
@@ -76,3 +76,22 @@ ID | Tela | Descrição | Nível Critico
 11  |  Tipo Logradouro  |  Cadastro/Alteração/Exclusão/Visualização de Tipo de Logradouro  |  <span style="color:green">1</span>
 36  |  TransferenciaProcessos  |  Gerenciar Processos e Pessoas (Transferência de Processos e exclusão de Pessoas)  |  <span style="color:orange">3</span>
 5  |  Usuário  |  Cadastro/Alteração/Exclusão/Visualização de Usuário  |  <span style="color:green">1</span>
+
+<br/><br/>
+
+#### Legenda Nível Critico
+<span style="color:green">**1**</span>  – Permissões com esse nível crítico de acesso não causaram problemas no sistema nem
+nos dados das empresas. Geralmente são permissões para acessar determinado menu, sem
+realizar alterações. Alguns menus mesmo que seja feito alterações não ocasionará perda
+na integridade dos dados.
+
+<span style="color:orange">**3**</span> – Permissões com esse nível crítico de acesso merecem um cuidado maior, pois são
+permissões que poderão criar, autorizar, alterar, deletar dados que são importantes para
+as empresas. Dados como cadastrar pessoas na empresa, cadastrar mensagem, cadastrar
+tomador, cadastrar benefício fiscal etc. Não ocasionara perda na integridade dos dados,
+mesmo assim, poderão inferir em relatórios e/ou consultas.
+
+<span style="color:red">**5**</span> – Permissões com esse nível crítico de acesso merecem um cuido redobrado, pois tais
+dados são sensíveis as empresas, e se manipulados de forma indevida poderão afetar a
+regra de negócio e/ou danificar a integridade dos dados. Portanto, é necessário ter um
+cuidado muito maior com tais permissões.
