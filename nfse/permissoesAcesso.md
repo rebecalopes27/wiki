@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:36:03.939Z
+date: 2020-06-30T12:36:37.470Z
 tags: nfse, permissões, usuários
 ---
 
@@ -162,6 +162,6 @@ tags: nfse, permissões, usuários
 6464 | TabelaSimplesNacional - criar | Permissão para **criar** faixa de valores do Simples Nacional.Aparecerá botão “Adicionar | Administração > Auxiliares > Cadastro de Faixa de Valores do Simples Nacional | <span style="color:orange">3</span>
 6497 | Sistema - alterar | NÃO UTILIZADO | NÃO UTILIZADO |NÃO UTILIZADO
 6498 | Sistema - apagar | NÃO UTILIZADO | NÃO UTILIZADO | NÃO UTILIZADO
-     |                  |               | Total:        | 154 
+                                           Total:         154 
 
 
