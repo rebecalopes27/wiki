@@ -2,7 +2,7 @@
 title: Permissões de usuários NFSE
 description: Descrição das permissões de usuários do sistema de Nota Fiscal
 published: true
-date: 2020-06-30T12:42:27.238Z
+date: 2020-06-30T12:44:15.529Z
 tags: nfse, permissões, usuários
 ---
 
@@ -162,6 +162,13 @@ tags: nfse, permissões, usuários
 6464 | TabelaSimplesNacional - criar | Permissão para **criar** faixa de valores do Simples Nacional.Aparecerá botão “Adicionar | Administração > Auxiliares > Cadastro de Faixa de Valores do Simples Nacional | <span style="color:orange">3</span>
 6497 | Sistema - alterar | NÃO UTILIZADO | NÃO UTILIZADO |
 6498 | Sistema - apagar | NÃO UTILIZADO | NÃO UTILIZADO |
-                                           
+
+## Legenda Nível Critico
+
+<span style="color:green">1</span> – Permissões com esse nível crítico de acesso não causaram problemas no sistema nem nos dados das empresas. Geralmente são permissões para acessar determinado menu, sem realizar alterações. Alguns menus mesmo que seja feito alterações não ocasionará perda na integridade dos dados.
+
+<span style="color:orange">3</span> – Permissões com esse nível crítico de acesso merecem um <span style="color:orange">cuidado maior</span>, pois são permissões que poderão criar, autorizar, alterar, deletar dados que são importantes para as empresas. Dados como cadastrar pessoas na empresa, cadastrar mensagem, cadastrar tomador, cadastrar benefício fiscal etc. Não ocasionara perda na integridade dos dados, mesmo assim, poderão inferir em relatórios e/ou consultas.
+
+<span style="color:red">5</span> – Permissões com esse nível crítico de acesso merecem um <span style="color:red">cuidado redobrado</span>, pois tais dados são sensíveis as empresas, e se manipulados de forma indevida poderão afetar a regra de negócio e/ou danificar a integridade dos dados. Portanto, é necessário ter um cuidado muito maior com tais permissões.
 
 
