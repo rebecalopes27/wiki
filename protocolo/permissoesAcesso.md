@@ -2,7 +2,7 @@
 title: Permissões de usuários Protocolo
 description: Descrição das permissões de usuários do sistema Protocolo
 published: true
-date: 2020-06-30T14:34:51.960Z
+date: 2020-06-30T14:55:11.553Z
 tags: protocolo, permissões, usuários
 ---
 
@@ -30,9 +30,11 @@ tags: protocolo, permissões, usuários
 16  |  Habilita cadastro de Processos  |  ProcessoController habilitaCadastroDeProcessos()  |  <span style="color:green">1</span>
 
 <br/>
-
+> Algumas permissões, como cadastro de usuários não aparecem imediatamente quando
+logado como suporte, mas é permitido trocar para modo administrador e então essas
+permissões são liberadas.
 #### <center> Permissões de Telas </center> 
-<center>*Se o usuário tiver perfil Administrador, todas as telas são liberadas</center>
+<center>*Se o usuário tiver perfil  __Administrador__ , todas as telas são liberadas</center>
 
 ID | Tela | Descrição | Nível Critico
 :------| :------: | :------: | :------: | :------: |
