@@ -2,7 +2,7 @@
 title: Configurar o Wildfly 15 no Client
 description: Configurar um servidor Wildfly 15 e alterar as portas de acesso
 published: true
-date: 2020-07-09T21:40:47.998Z
+date: 2020-07-09T21:40:59.672Z
 tags: 
 ---
 
