@@ -2,7 +2,7 @@
 title: Configurar o Wildfly 15 no Client
 description: Configurar um servidor Wildfly 15 e alterar as portas de acesso
 published: true
-date: 2020-07-23T17:28:56.731Z
+date: 2020-07-23T17:29:07.810Z
 tags: 
 ---
 
@@ -36,7 +36,7 @@ set DESCRIPTION=nea_wildfly_8180
 * E depois só instalar o serviço Wildfly no prompt de comando
 
 ````
-D:\Na_Info\SRVWEB\wildfly15_8084\bin\service> service install
+D:\Na_Info\SRVWEB\wildfly15_8180\bin\service> service install
 ````
 * Pronto serviço instalado com a porta definida
 
