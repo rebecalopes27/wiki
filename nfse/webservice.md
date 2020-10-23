@@ -2,7 +2,7 @@
 title: Webservice
 description: Webservice para comunicação entre sistemas
 published: true
-date: 2020-05-07T12:22:58.739Z
+date: 2020-10-23T20:34:20.466Z
 tags: webservice, xml, rps
 ---
 
@@ -29,6 +29,10 @@ Os clientes que decidem utilizar o webservice como meio de comunicação entre o
 # Como Testar o Webservice Localmente
 
 * Passos para o teste local no código
+é usado para o envio a aplicação webservice-client e o nota pra recepcionar as rps
+  No webserice-client na classe Cliente.java configurar o caminho do wsdl e o método que vai ser testado.
+  
+  
 
 * Passos para o teste local com Software SoapUI (Muito usado pelos clientes)
 
