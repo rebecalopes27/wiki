@@ -2,7 +2,7 @@
 title: Webservice
 description: Webservice para comunicação entre sistemas
 published: true
-date: 2020-10-23T22:09:29.170Z
+date: 2020-10-26T23:22:39.353Z
 tags: webservice, xml, rps
 ---
 
@@ -71,7 +71,28 @@ Os métodos estão na classe servicosWebTools
 
 * Passos para o teste local com Software SoapUI (Muito usado pelos clientes)
 
-* Tag CDATA para teste com SoapUI
+# Tag CDATA para teste com SoapUI
+->Para envio de arquivos xml usando o SoapUI tem que se usar a tag CDATA
+Ex: xml consulta
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope
+    xmlns:nfse="http://nfse.abrasf.org.br"
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <nfse:ConsultarLoteRps>
+            <ConsultarLoteRpsEnvio>
+                <![CDATA[
+				<ConsultarLoteRpsEnvio
+                xmlns="http://www.abrasf.org.br/nfse.xsd"><Prestador><CpfCnpj><Cnpj>04311093001521</Cnpj></CpfCnpj><InscricaoMunicipal>103735</InscricaoMunicipal></Prestador><Protocolo>555071</Protocolo></ConsultarLoteRpsEnvio>]]>
+            </ConsultarLoteRpsEnvio>
+        </nfse:ConsultarLoteRps>
+    </soap:Body>
+</soap:Envelope>
+```
+
 
 # Identificar XML mal formatado
 
