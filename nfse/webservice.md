@@ -2,7 +2,7 @@
 title: Webservice
 description: Webservice para comunicação entre sistemas
 published: true
-date: 2020-10-26T23:22:39.353Z
+date: 2020-10-27T12:10:10.581Z
 tags: webservice, xml, rps
 ---
 
